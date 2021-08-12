@@ -1,0 +1,168 @@
+.sect_7 {
+
+    &__wrapper {
+        
+        padding-top: 118px;
+
+        @include is-sp {
+            padding-top: 100px;
+        }
+        
+        .l-wrap {
+
+            width: 1140px;
+
+            @include is-sp {
+                padding: 0 60px;
+                width: 100%;
+                position: relative;
+                padding-bottom: 385px;
+            }
+
+            .heading {
+                position: relative;
+                width: 215px;
+                margin: 0 auto;
+
+                p {
+                    color: #006795;
+                    @include font-line(32);
+                    font-weight: 700;
+                    font-family: Noto Sans CJK JP;
+                    text-align: center;
+                    
+                }
+                
+
+                &::after {
+                    content: '';
+                    width: 95%;
+                    background: #FAFA00;
+                    height: 16px;
+                    position: absolute;
+                    bottom: 3px;
+                    z-index: -1;
+                    margin-left: 6px;
+                }
+
+            }
+
+            .girl {
+                position: absolute;
+                top: 11%;
+
+                @include is-sp {
+                   display: none;
+                }
+              
+            }
+
+            // for sp
+            .girl_sp {
+                position: absolute;
+                display: none;
+
+                @include is-sp {
+                    bottom: 105px;
+                    display: block;
+                }
+              
+            }
+
+
+            .row {
+                padding-top: 75px;
+                display: flex;
+                padding-left: 93px;
+
+                @include is-sp {
+                    padding-top: 60px;
+                    padding-left: 0;
+                    flex-direction: column;
+                }
+
+                .col {
+                    width: 27%;
+                    margin-left: 55px;
+
+                    @include is-sp {
+                        width: 100%;
+                        margin: 0 auto;
+                        padding-bottom: 77px;
+                    }
+                    
+
+                    .col_heading {
+                        position: relative;
+
+                        @include is-sp {
+                            display: none;
+                        }
+                        
+                        img {
+                            width: 100%;
+                        }
+
+                        p {
+                            position: absolute;
+                            top: 45%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 100%;
+                            text-align: center;
+                            @include font-line(20);
+                            font-weight: 700;
+                            font-family: Noto Sans CJK JP;
+                            color: #FAFA00;
+                        }
+                    }
+
+                    // for sp
+                    .col_heading_sp {
+                        position: relative;
+                        display: none;
+
+                        @include is-sp {
+                            display: block;
+                            width: 360px;
+                            margin: 0 auto;
+                        }
+                        
+                        img {
+                            width: 100%;
+                        }
+
+                        p {
+                            position: absolute;
+                            top: 45%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 100%;
+                            text-align: center;
+                            @include font-line(20);
+                            font-weight: 700;
+                            font-family: Noto Sans CJK JP;
+                            color: #FAFA00;
+                        }
+
+                        
+                    }
+
+
+                    .col_body {
+                        @include font-line(18);
+                        font-weight: 300;
+                        font-family: Noto Sans CJK JP;
+                        color: #006795;
+                        padding-top: 30px;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
