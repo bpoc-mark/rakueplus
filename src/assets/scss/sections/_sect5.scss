@@ -1,0 +1,12 @@
+.sect_5 {
+	.l-wrap {
+		@include is-sp {
+			padding-right: 0;
+		}
+	}
+	&__wrapper {
+		background-color: #fae100;
+		padding: 25px 0;
+		margin: 50px 0;
+	}
+}
