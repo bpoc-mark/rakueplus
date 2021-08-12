@@ -1,0 +1,20 @@
+.page{
+    &__footer{
+        background-color: #006795;
+        padding: 40px 0;
+        p{
+            font-family: noto-sans-cjk-jp, sans-serif;
+            font-weight: 400;
+            @include font-line(16px);
+            color: #fff;
+            text-align: center;
+
+            a{
+                font-family: noto-sans-cjk-jp, sans-serif;
+                font-weight: 400;
+                @include font-line(16px);
+                color: #fff;
+            }
+        }
+    }
+}

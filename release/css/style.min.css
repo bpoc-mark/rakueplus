@@ -491,6 +491,9 @@ template{display:none}
 .u-pl-09em{padding-left:9em !important}
 .u-pl-010em{padding-left:10em !important}
 .u-pl-011em{padding-left:11em !important}
+.page__footer{background-color:#006795;padding:40px 0}
+.page__footer p{font-family:noto-sans-cjk-jp,sans-serif;font-weight:400;font-size:1pxrem;color:#fff;text-align:center}
+.page__footer p a{font-family:noto-sans-cjk-jp,sans-serif;font-weight:400;font-size:1pxrem;color:#fff}
 .sect_1 .l-wrap{background-color:red}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .l-wrap{padding-left:15px;padding-right:15px}
