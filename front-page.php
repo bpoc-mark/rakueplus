@@ -19,7 +19,7 @@
             <div class="l-wrap">
                 <!-- heading -->
                 <div class="heading">
-                    <h1>RAKUE+の提供価値</h1>
+                    <h1>RAKUE+の<br>提供価値</h1>
                 </div>
                 <!-- row -->
                 <div class="row">
@@ -85,7 +85,7 @@
                             </div>
                             <div>
                                 <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="">
-                                <p>営業同行 1回</p>
+                                <p>営業同行 5回</p>
                             </div>
                         </div>
 

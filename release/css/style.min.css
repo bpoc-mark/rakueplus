@@ -495,6 +495,7 @@ template{display:none}
 .sect_6{background-color:#006795}
 .sect_6__wrapper{padding-bottom:111px}
 .sect_6__wrapper .l-wrap .heading h1{padding-top:73px;padding-bottom:67px;color:#fafa00;font-size:2.625rem;font-family:Noto Sans CJK JP;text-align:center;font-weight:700}
+.sect_6__wrapper .l-wrap .heading h1 br{display:none}
 .sect_6__wrapper .l-wrap .row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .sect_6__wrapper .l-wrap .row .col_1__body{padding:55px 0}
 .sect_6__wrapper .l-wrap .row .col_1__body div{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
@@ -519,7 +520,6 @@ template{display:none}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .l-wrap{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
-}@media(min-width:500px) and (max-width:1090px){.sect_6__wrapper .l-wrap{padding-left:60px;padding-right:60px}
 }@media only screen and (min-width:751px){.l-container--under{padding-top:40px}
 .l-container.is-column2{margin:0 auto}
 .l-container.is-column3{margin:0 auto}
@@ -589,30 +589,22 @@ template{display:none}
 .sect_6__wrapper .l-wrap .row .col_3{width:30%}
 .sect_6__wrapper .l-wrap .row .col_3__body div p{width:100%;font-size:18px}
 .sect_6__wrapper .l-wrap .row .col_3 p{width:100%;font-size:18px}
+}@media(max-width:1090px){.sect_6__wrapper .l-wrap{padding-left:60px;padding-right:60px}
 }@media only screen and (max-width:850px){.sect_6__wrapper{padding-bottom:74px}
 .sect_6__wrapper .l-wrap .heading h1{padding-top:89px;padding-bottom:65px}
 .sect_6__wrapper .l-wrap .row{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
 .sect_6__wrapper .l-wrap .row .col_1{width:100%;padding-bottom:80px}
 .sect_6__wrapper .l-wrap .row .col_1 .col_heading{text-align:center}
-.sect_6__wrapper .l-wrap .row .col_1 .col_heading img{width:360px}
-.sect_6__wrapper .l-wrap .row .col_1__body{width:360px;margin:0 auto}
-.sect_6__wrapper .l-wrap .row .col_1__body div img{width:10%}
+.sect_6__wrapper .l-wrap .row .col_1 .col_heading img{width:300px}
 .sect_6__wrapper .l-wrap .row .col_1__body div p{font-size:27.5px}
-.sect_6__wrapper .l-wrap .row .col_1 p{width:360px;margin:auto}
 .sect_6__wrapper .l-wrap .row .col_2{width:100%;padding-bottom:80px}
 .sect_6__wrapper .l-wrap .row .col_2 .col_heading{text-align:center}
-.sect_6__wrapper .l-wrap .row .col_2 .col_heading img{width:360px}
-.sect_6__wrapper .l-wrap .row .col_2__body{width:360px;margin:0 auto}
-.sect_6__wrapper .l-wrap .row .col_2__body div img{width:10%}
+.sect_6__wrapper .l-wrap .row .col_2 .col_heading img{width:300px}
 .sect_6__wrapper .l-wrap .row .col_2__body div p{font-size:27.5px}
-.sect_6__wrapper .l-wrap .row .col_2 p{width:360px;margin:auto}
-.sect_6__wrapper .l-wrap .row .col_3{width:100%;padding-bottom:80px}
+.sect_6__wrapper .l-wrap .row .col_3{width:100%}
 .sect_6__wrapper .l-wrap .row .col_3 .col_heading{text-align:center}
-.sect_6__wrapper .l-wrap .row .col_3 .col_heading img{width:360px}
-.sect_6__wrapper .l-wrap .row .col_3__body{width:360px;margin:0 auto}
-.sect_6__wrapper .l-wrap .row .col_3__body div img{width:10%}
+.sect_6__wrapper .l-wrap .row .col_3 .col_heading img{width:300px}
 .sect_6__wrapper .l-wrap .row .col_3__body div p{font-size:27.5px}
-.sect_6__wrapper .l-wrap .row .col_3 p{width:360px;margin:auto}
 }@media only screen and (max-width:750px){.l-container{display:block}
 .l-container.is-column2{padding-top:20px;display:block}
 .l-container.is-column2 .left,.l-container.is-column2 .right{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;margin-bottom:30px}
@@ -831,21 +823,25 @@ template{display:none}
 .u-pl-45{padding-left:22px !important}
 .u-pl-50{padding-left:25px !important}
 .sect_6__wrapper .l-wrap .row .col_1 .col_heading{width:100%}
+.sect_6__wrapper .l-wrap .row .col_1 p{font-size:22px}
 .sect_6__wrapper .l-wrap .row .col_2 .col_heading{width:100%}
+.sect_6__wrapper .l-wrap .row .col_2 p{font-size:22px}
 .sect_6__wrapper .l-wrap .row .col_3 .col_heading{width:100%}
-}@media only screen and (max-width:450px){.sect_6__wrapper .l-wrap .heading h1{font-size:29px}
-.sect_6__wrapper .l-wrap .row .col_1 .col_heading img{width:250px}
-.sect_6__wrapper .l-wrap .row .col_1__body{width:250px;margin:0 auto}
-.sect_6__wrapper .l-wrap .row .col_1__body div p{font-size:20px}
-.sect_6__wrapper .l-wrap .row .col_1 p{width:250px}
-.sect_6__wrapper .l-wrap .row .col_2 .col_heading img{width:250px}
-.sect_6__wrapper .l-wrap .row .col_2__body{width:250px;margin:0 auto}
-.sect_6__wrapper .l-wrap .row .col_2__body div p{font-size:20px}
-.sect_6__wrapper .l-wrap .row .col_2 p{width:250px}
-.sect_6__wrapper .l-wrap .row .col_3 .col_heading img{width:250px}
-.sect_6__wrapper .l-wrap .row .col_3__body{width:250px;margin:0 auto}
-.sect_6__wrapper .l-wrap .row .col_3__body div p{font-size:20px}
-.sect_6__wrapper .l-wrap .row .col_3 p{width:250px}
+.sect_6__wrapper .l-wrap .row .col_3 p{font-size:22px}
+}@media only screen and (max-width:500px){.sect_6__wrapper .l-wrap .heading h1 br{display:block}
+}@media only screen and (max-width:450px){.sect_6__wrapper .l-wrap .row .col_1__body div p{font-size:24.5px}
+.sect_6__wrapper .l-wrap .row .col_2__body div p{font-size:24.5px}
+.sect_6__wrapper .l-wrap .row .col_3__body div p{font-size:24.5px}
+}@media only screen and (max-width:405px){.sect_6__wrapper .l-wrap .row .col_1__body div p{font-size:20.5px}
+.sect_6__wrapper .l-wrap .row .col_2__body div p{font-size:20.5px}
+.sect_6__wrapper .l-wrap .row .col_3__body div p{font-size:20.5px}
+}@media only screen and (max-width:362px){.sect_6__wrapper .l-wrap .row .col_1__body div p{font-size:16.5px}
+.sect_6__wrapper .l-wrap .row .col_1 p{font-size:16px}
+.sect_6__wrapper .l-wrap .row .col_2__body div p{font-size:16.5px}
+.sect_6__wrapper .l-wrap .row .col_2 p{font-size:16px}
+.sect_6__wrapper .l-wrap .row .col_3__body div p{font-size:16.5px}
+.sect_6__wrapper .l-wrap .row .col_3 p{font-size:16px}
+}@media only screen and (max-width:328px){.sect_6__wrapper .l-wrap .heading h1{font-size:40px}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 25%{-webkit-transform:rotate(0);transform:rotate(0)}
 50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);color:#fff}

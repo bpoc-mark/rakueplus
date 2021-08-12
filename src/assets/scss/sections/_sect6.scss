@@ -12,7 +12,7 @@
 
         .l-wrap {
 
-           @media(min-width: 500px) and (max-width: 1090px) {
+           @media(max-width: 1090px) {
                 padding-left: 60px;
                 padding-right: 60px;
             }
@@ -29,15 +29,25 @@
                     text-align: center;
                     font-weight: 700;
 
+                    br {
+                        display: none;
+
+                        @include is-max(500px) {
+                            display: block;
+                         }
+                    }
+
                     
                         @include is-max(850px) {
                             padding-top: 89px;
                             padding-bottom: 65px;
                          }
 
-                         @include is-max(450px) {
-                            font-size: 29px;
+                         @include is-max(328px) {
+                           font-size: 40px;
                          }
+
+                         
                      
                    
                 }
@@ -71,17 +81,9 @@
                             text-align: center;
                        
                                 img {
-                                    width: 360px;
+                                    width: 300px;
                                  }
 
-                         }
-
-                         @include is-max(450px) {
-
-                            img {
-                                width: 250px;
-                            }
-                           
                          }
 
                          @include is-sp {
@@ -93,15 +95,6 @@
 
                     &__body {
 
-                        @include is-max(850px) {
-                            width: 360px;
-                            margin: 0 auto;
-                         }
-
-                         @include is-max(450px) {
-                            width: 250px;
-                            margin: 0 auto;
-                         }
 
                         padding: 55px 0;
 
@@ -111,10 +104,6 @@
                             
                             img {
                                 padding-right: 5px;
-
-                                @include is-max(850px) {
-                                    width: 10%;
-                                 }
 
                             }
 
@@ -135,8 +124,17 @@
                                  }
 
                                  @include is-max(450px) {
-                                    font-size: 20px;
+                                    font-size: 24.5px;
                                  }
+
+                                 @include is-max(405px) {
+                                    font-size: 20.5px;
+                                 }
+
+                                 @include is-max(362px) {
+                                    font-size: 16.5px;
+                                 }
+
                             }
 
                             &:first-child {
@@ -161,18 +159,19 @@
                             font-size: 18px;
                          }
 
-                         @include is-max(850px) {
-                            width: 360px;
-                            margin: auto;
+                         @include is-sp {
+                             font-size: 22px;
                          }
 
-                         @include is-max(450px) {
-                            width: 250px;
+                         @include is-max(362px) {
+                            font-size: 16px;
                          }
+
 
                     }
 
                 }
+
 
 
                 // column 2
@@ -192,17 +191,9 @@
                             text-align: center;
                        
                                 img {
-                                    width: 360px;
+                                    width: 300px;
                                  }
 
-                         }
-
-                         @include is-max(450px) {
-
-                            img {
-                                width: 250px;
-                            }
-                           
                          }
 
                          @include is-sp {
@@ -214,15 +205,6 @@
 
                     &__body {
 
-                        @include is-max(850px) {
-                            width: 360px;
-                            margin: 0 auto;
-                         }
-
-                         @include is-max(450px) {
-                            width: 250px;
-                            margin: 0 auto;
-                         }
 
                         padding: 55px 0;
 
@@ -232,10 +214,6 @@
                             
                             img {
                                 padding-right: 5px;
-
-                                @include is-max(850px) {
-                                    width: 10%;
-                                 }
 
                             }
 
@@ -256,8 +234,17 @@
                                  }
 
                                  @include is-max(450px) {
-                                    font-size: 20px;
+                                    font-size: 24.5px;
                                  }
+
+                                 @include is-max(405px) {
+                                    font-size: 20.5px;
+                                 }
+
+                                 @include is-max(362px) {
+                                    font-size: 16.5px;
+                                 }
+
                             }
 
                             &:first-child {
@@ -286,18 +273,21 @@
                             font-size: 18px;
                          }
 
-                         @include is-max(850px) {
-                            width: 360px;
-                            margin: auto;
+                         @include is-sp {
+                             font-size: 22px;
                          }
 
-                         @include is-max(450px) {
-                            width: 250px;
+                         @include is-max(362px) {
+                            font-size: 16px;
                          }
+
 
                     }
 
                 }
+
+
+               
 
 
 
@@ -310,7 +300,6 @@
 
                     @include is-max(850px) {
                         width: 100%;
-                        padding-bottom: 80px;
                      }
 
                      .col_heading {
@@ -318,17 +307,9 @@
                             text-align: center;
                        
                                 img {
-                                    width: 360px;
+                                    width: 300px;
                                  }
 
-                         }
-
-                         @include is-max(450px) {
-
-                            img {
-                                width: 250px;
-                            }
-                           
                          }
 
                          @include is-sp {
@@ -340,15 +321,6 @@
 
                     &__body {
 
-                        @include is-max(850px) {
-                            width: 360px;
-                            margin: 0 auto;
-                         }
-
-                         @include is-max(450px) {
-                            width: 250px;
-                            margin: 0 auto;
-                         }
 
                         padding: 55px 0;
 
@@ -358,10 +330,6 @@
                             
                             img {
                                 padding-right: 5px;
-
-                                @include is-max(850px) {
-                                    width: 10%;
-                                 }
 
                             }
 
@@ -382,8 +350,17 @@
                                  }
 
                                  @include is-max(450px) {
-                                    font-size: 20px;
+                                    font-size: 24.5px;
                                  }
+
+                                 @include is-max(405px) {
+                                    font-size: 20.5px;
+                                 }
+
+                                 @include is-max(362px) {
+                                    font-size: 16.5px;
+                                 }
+
                             }
 
                             &:first-child {
@@ -412,18 +389,19 @@
                             font-size: 18px;
                          }
 
-                         @include is-max(850px) {
-                            width: 360px;
-                            margin: auto;
+                         @include is-sp {
+                             font-size: 22px;
                          }
 
-                         @include is-max(450px) {
-                            width: 250px;
+                         @include is-max(362px) {
+                            font-size: 16px;
                          }
+
 
                     }
 
                 }
+
 
 
             }
