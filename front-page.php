@@ -26,7 +26,7 @@
                     <!-- column 1 -->
                     <div class="col_1">
                         <div class="col_heading">
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_1.png" alt="">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_1.png" alt="RAKUE + 松 プラン">
                         </div>
                     
                         <div class="col_1__body">
@@ -46,7 +46,7 @@
                     <!-- column 2 -->
                     <div class="col_2">
                         <div class="col_heading">
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_2.png" alt="">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_2.png" alt="RAKUE + 竹 プラン">
                         </div>
 
                         <div class="col_2__body">
@@ -70,7 +70,7 @@
                     <!-- column 3 -->
                     <div class="col_3">
                         <div class="col_heading">
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_3.png" alt="">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_3.png" alt="RAKUE + 梅 プラン">
                         </div>
                         
 
