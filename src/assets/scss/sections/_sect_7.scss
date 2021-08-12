@@ -12,6 +12,11 @@
 
             width: 1140px;
 
+            @media(max-width: 1090px) {
+                width: 100%;
+                padding: 0 60px;
+            }
+
             @include is-sp {
                 padding: 0 60px;
                 width: 100%;
@@ -73,11 +78,11 @@
             .row {
                 padding-top: 75px;
                 display: flex;
-                padding-left: 93px;
+                margin-left: 93px;
 
                 @include is-sp {
                     padding-top: 60px;
-                    padding-left: 0;
+                    margin-left: 0;
                     flex-direction: column;
                 }
 
@@ -111,6 +116,7 @@
                             width: 100%;
                             text-align: center;
                             @include font-line(20);
+                            // font-size: 1.3020833333333333vw;
                             font-weight: 700;
                             font-family: Noto Sans CJK JP;
                             color: #FAFA00;
@@ -151,10 +157,16 @@
 
                     .col_body {
                         @include font-line(18);
+                        font-size: 1.171875vw;
                         font-weight: 300;
                         font-family: Noto Sans CJK JP;
                         color: #006795;
                         padding-top: 30px;
+
+                        // @include is-sp {
+                        //     @include font-line(18);
+                        // }
+
                     }
 
                 }
