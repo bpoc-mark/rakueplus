@@ -15,7 +15,15 @@
         
     </section>
     <section class="sect_6">
-        
+        <div class="sect_1__wrapper">
+            <div class="l_wrap">
+                
+                <div class="heading">
+                    <h1>RAKUE+の提供価値</h1>
+                </div>
+
+            </div>
+        </div>
     </section>
     <section class="sect_7">
         
