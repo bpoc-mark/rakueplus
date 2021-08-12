@@ -1,0 +1,435 @@
+.sect_6 {
+
+    background-color: #006795;
+
+    &__wrapper {
+
+        padding-bottom: 111px;
+
+        @include is-max(850px) {
+            padding-bottom: 74px;
+         }
+
+        .l-wrap {
+
+           @media(min-width: 500px) and (max-width: 1090px) {
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+            
+            // heading
+            .heading {
+                
+                h1 {
+                    padding-top: 73px;
+                    padding-bottom: 67px;
+                    color: #FAFA00;
+                    @include font-line(42);
+                    font-family: Noto Sans CJK JP;
+                    text-align: center;
+                    font-weight: 700;
+
+                    
+                        @include is-max(850px) {
+                            padding-top: 89px;
+                            padding-bottom: 65px;
+                         }
+
+                         @include is-max(450px) {
+                            font-size: 29px;
+                         }
+                     
+                   
+                }
+
+            }
+
+            // row
+            .row {
+
+                display: flex;
+                justify-content: space-between;
+
+                @include is-max(850px) {
+                    flex-direction: column;
+                 }
+
+                // column 1
+                .col_1 {   
+
+                    @include is-max(1090px) {
+                       width: 30%;
+                    }
+
+                    @include is-max(850px) {
+                        width: 100%;
+                        padding-bottom: 80px;
+                     }
+
+                     .col_heading {
+                        @include is-max(850px) {
+                            text-align: center;
+                       
+                                img {
+                                    width: 360px;
+                                 }
+
+                         }
+
+                         @include is-max(450px) {
+
+                            img {
+                                width: 250px;
+                            }
+                           
+                         }
+
+                         @include is-sp {
+                             width: 100%;
+
+                         }
+                     }
+        
+
+                    &__body {
+
+                        @include is-max(850px) {
+                            width: 360px;
+                            margin: 0 auto;
+                         }
+
+                         @include is-max(450px) {
+                            width: 250px;
+                            margin: 0 auto;
+                         }
+
+                        padding: 55px 0;
+
+                        div {
+                            display: flex;
+                            align-items: center;
+                            
+                            img {
+                                padding-right: 5px;
+
+                                @include is-max(850px) {
+                                    width: 10%;
+                                 }
+
+                            }
+
+                            p {
+                                @include font-line(22);
+                                font-weight: 500;
+                                font-family: Noto Sans CJK JP;
+                                color: #fff;
+                                letter-spacing: -1px;
+
+                                @include is-max(1090px) {
+                                    width: 100%;
+                                    font-size: 18px;
+                                 }
+
+                                 @include is-max(850px) {
+                                    font-size: 27.5px;
+                                 }
+
+                                 @include is-max(450px) {
+                                    font-size: 20px;
+                                 }
+                            }
+
+                            &:first-child {
+                                padding-bottom: 16px;
+                            }
+
+                        }
+                        
+                    }
+
+                    p {
+                        width: 300px;
+                        @include font-line(18);
+                        letter-spacing: 2px;
+                        font-weight: 300;
+                        font-family: Noto Sans CJK JP;
+                        color: #fff;
+                        line-height: 29px;
+
+                        @include is-max(1090px) {
+                            width: 100%;
+                            font-size: 18px;
+                         }
+
+                         @include is-max(850px) {
+                            width: 360px;
+                            margin: auto;
+                         }
+
+                         @include is-max(450px) {
+                            width: 250px;
+                         }
+
+                    }
+
+                }
+
+
+                // column 2
+                .col_2 {   
+
+                    @include is-max(1090px) {
+                       width: 30%;
+                    }
+
+                    @include is-max(850px) {
+                        width: 100%;
+                        padding-bottom: 80px;
+                     }
+
+                     .col_heading {
+                        @include is-max(850px) {
+                            text-align: center;
+                       
+                                img {
+                                    width: 360px;
+                                 }
+
+                         }
+
+                         @include is-max(450px) {
+
+                            img {
+                                width: 250px;
+                            }
+                           
+                         }
+
+                         @include is-sp {
+                             width: 100%;
+
+                         }
+                     }
+        
+
+                    &__body {
+
+                        @include is-max(850px) {
+                            width: 360px;
+                            margin: 0 auto;
+                         }
+
+                         @include is-max(450px) {
+                            width: 250px;
+                            margin: 0 auto;
+                         }
+
+                        padding: 55px 0;
+
+                        div {
+                            display: flex;
+                            align-items: center;
+                            
+                            img {
+                                padding-right: 5px;
+
+                                @include is-max(850px) {
+                                    width: 10%;
+                                 }
+
+                            }
+
+                            p {
+                                @include font-line(22);
+                                font-weight: 500;
+                                font-family: Noto Sans CJK JP;
+                                color: #fff;
+                                letter-spacing: -1px;
+
+                                @include is-max(1090px) {
+                                    width: 100%;
+                                    font-size: 18px;
+                                 }
+
+                                 @include is-max(850px) {
+                                    font-size: 27.5px;
+                                 }
+
+                                 @include is-max(450px) {
+                                    font-size: 20px;
+                                 }
+                            }
+
+                            &:first-child {
+                                padding-bottom: 16px;
+                            }
+
+                            &:nth-child(2) {
+                                padding-bottom: 16px;
+                            }
+
+                        }
+                        
+                    }
+
+                    p {
+                        width: 300px;
+                        @include font-line(18);
+                        letter-spacing: 2px;
+                        font-weight: 300;
+                        font-family: Noto Sans CJK JP;
+                        color: #fff;
+                        line-height: 29px;
+
+                        @include is-max(1090px) {
+                            width: 100%;
+                            font-size: 18px;
+                         }
+
+                         @include is-max(850px) {
+                            width: 360px;
+                            margin: auto;
+                         }
+
+                         @include is-max(450px) {
+                            width: 250px;
+                         }
+
+                    }
+
+                }
+
+
+
+                // column 3
+                .col_3 {   
+
+                    @include is-max(1090px) {
+                       width: 30%;
+                    }
+
+                    @include is-max(850px) {
+                        width: 100%;
+                        padding-bottom: 80px;
+                     }
+
+                     .col_heading {
+                        @include is-max(850px) {
+                            text-align: center;
+                       
+                                img {
+                                    width: 360px;
+                                 }
+
+                         }
+
+                         @include is-max(450px) {
+
+                            img {
+                                width: 250px;
+                            }
+                           
+                         }
+
+                         @include is-sp {
+                             width: 100%;
+
+                         }
+                     }
+        
+
+                    &__body {
+
+                        @include is-max(850px) {
+                            width: 360px;
+                            margin: 0 auto;
+                         }
+
+                         @include is-max(450px) {
+                            width: 250px;
+                            margin: 0 auto;
+                         }
+
+                        padding: 55px 0;
+
+                        div {
+                            display: flex;
+                            align-items: center;
+                            
+                            img {
+                                padding-right: 5px;
+
+                                @include is-max(850px) {
+                                    width: 10%;
+                                 }
+
+                            }
+
+                            p {
+                                @include font-line(22);
+                                font-weight: 500;
+                                font-family: Noto Sans CJK JP;
+                                color: #fff;
+                                letter-spacing: -1px;
+
+                                @include is-max(1090px) {
+                                    width: 100%;
+                                    font-size: 18px;
+                                 }
+
+                                 @include is-max(850px) {
+                                    font-size: 27.5px;
+                                 }
+
+                                 @include is-max(450px) {
+                                    font-size: 20px;
+                                 }
+                            }
+
+                            &:first-child {
+                                padding-bottom: 16px;
+                            }
+
+                            &:nth-child(2) {
+                                padding-bottom: 16px;
+                            }
+
+                        }
+                        
+                    }
+
+                    p {
+                        width: 300px;
+                        @include font-line(18);
+                        letter-spacing: 2px;
+                        font-weight: 300;
+                        font-family: Noto Sans CJK JP;
+                        color: #fff;
+                        line-height: 29px;
+
+                        @include is-max(1090px) {
+                            width: 100%;
+                            font-size: 18px;
+                         }
+
+                         @include is-max(850px) {
+                            width: 360px;
+                            margin: auto;
+                         }
+
+                         @include is-max(450px) {
+                            width: 250px;
+                         }
+
+                    }
+
+                }
+
+
+            }
+
+        }
+
+    }
+
+}
