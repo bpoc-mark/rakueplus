@@ -492,6 +492,25 @@ template{display:none}
 .u-pl-010em{padding-left:10em !important}
 .u-pl-011em{padding-left:11em !important}
 .sect_1 .l-wrap{background-color:red}
+.sect_4{padding-top:125px;padding-bottom:58px;position:relative}
+.sect_4 .bg_overlay{background-color:#e9eeee;content:"";position:absolute;z-index:-1;height:100%;width:330px;top:0;right:0}
+.sect_4__heading-title{font-size:2rem;font-weight:700;text-align:center;font-family:noto-sans-cjk-jp,sans-serif}
+.sect_4__heading-title p{position:relative}
+.sect_4__heading-title span{background:-webkit-gradient(linear,left top,left bottom,color-stop(68%,transparent),color-stop(0,#ff0));background:linear-gradient(transparent 68%,#ff0 0)}
+.sect_4 .title-primary{color:#006795}
+.sect_4__cont_flex{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.sect_4__cont_flex .mt-44{margin-top:44px}
+.sect_4__cont_flex img{width:100%}
+.sect_4__cont_flex .desc{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.sect_4__cont_flex .desc .txt_list{font-size:1.375rem;font-weight:400;text-align:left;font-family:noto-sans-cjk-jp,sans-serif;letter-spacing:-1.1px}
+.sect_4__cont_flex .cont_person{margin-left:20px;position:relative}
+.sect_4__cont_flex .cont_person .mssg{position:absolute;right:-23%;width:172px;height:auto;top:-50%}
+.sect_4__cont_flex .cont_person .mssg img{width:100%}
+.sect_4__cont_flex .icon{width:25px;height:20px;padding-right:3px;margin-top:5px}
+.sect_4__cont_flex .person{width:296px;height:auto}
+.sect_4__cont_flex .txt{font-size:1.125rem;font-weight:400;text-align:left;font-family:noto-sans-cjk-jp,sans-serif}
+.sect_4__cont_flex .mt-65{margin-top:65px}
+.sect_4__cont_flex .cont_desc{width:calc(100% - 315px)}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .l-wrap{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
@@ -554,7 +573,12 @@ template{display:none}
 .p-navigation .btn-menu{display:none}
 .testimonial__speech{font-size:1rem;line-height:2}
 .u-d-n-pc{display:none !important}
+.sect_4__cont_flex .cont_person{margin-top:45px}
+.sect_4__cont_flex .cont_person img{width:100%}
 }@media only screen and (max-width:1090px){.l-wrap{width:100%}
+.sect_4 .l-wrap{padding-left:30px;padding-right:30px}
+.sect_4__cont_flex .desc{-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline}
+}@media only screen and (max-width:751px){.sect_4__cont_flex .cont_person .mssg{right:-9%;top:-39%}
 }@media only screen and (max-width:750px){.l-container{display:block}
 .l-container.is-column2{padding-top:20px;display:block}
 .l-container.is-column2 .left,.l-container.is-column2 .right{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;margin-bottom:30px}
@@ -772,6 +796,18 @@ template{display:none}
 .u-pl-40{padding-left:20px !important}
 .u-pl-45{padding-left:22px !important}
 .u-pl-50{padding-left:25px !important}
+.sect_4{padding-top:88px;padding-bottom:33px}
+.sect_4 .bg_overlay{display:none}
+.sect_4__cont_flex{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.sect_4__cont_flex .mt-44{margin-top:37px}
+.sect_4__cont_flex .mb-40{margin-bottom:40px}
+.sect_4__cont_flex .cont_person{margin-top:45px;margin-left:0;text-align:center}
+.sect_4__cont_flex .cont_person .mssg{right:-80px !important;top:0 !important;width:172px}
+.sect_4__cont_flex .txt_cont{display:none}
+.sect_4__cont_flex .cont_desc{width:100%}
+}@media only screen and (max-width:515px){.sect_4__cont_flex .cont_person{width:65%}
+.sect_4__cont_flex .cont_person .mssg{width:59%;right:-27%}
+}@media only screen and (max-width:295px){.sect_4__cont_flex .person{width:100%}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 25%{-webkit-transform:rotate(0);transform:rotate(0)}
 50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);color:#fff}
