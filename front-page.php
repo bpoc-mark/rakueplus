@@ -38,14 +38,14 @@
                     <div class="col col_1">
 
                         <div class="col_heading">
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2.png" alt="">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2.png" alt="質問タイトルが入ります">
                             <p>質問タイトルが入ります <br>
                                 質問タイトルが入ります</p>
                         </div>
 
                         <!-- sp heading -->
                         <div class="col_heading_sp">
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2_sp.png" alt="">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2_sp.png" alt="質問タイトルが入ります">
                             <p>質問タイトルが入ります <br>
                                 質問タイトルが入ります</p>
                         </div>
@@ -58,14 +58,14 @@
                     <div class="col col_2">
                         
                         <div class="col_heading">
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2.png" alt="">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2.png" alt="質問タイトルが入ります">
                             <p>質問タイトルが入ります <br>
                                 質問タイトルが入ります</p>
                         </div>
 
                         <!-- sp heading -->
                         <div class="col_heading_sp">
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2_sp.png" alt="">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2_sp.png" alt="質問タイトルが入ります">
                             <p>質問タイトルが入ります <br>
                                 質問タイトルが入ります</p>
                         </div>
@@ -77,14 +77,14 @@
                     <div class="col col_3">
                         
                         <div class="col_heading">
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2.png" alt="">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2.png" alt="質問タイトルが入ります">
                             <p>質問タイトルが入ります <br>
                                 質問タイトルが入ります</p>
                         </div>
 
                         <!-- sp heading -->
                         <div class="col_heading_sp">
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2_sp.png" alt="">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_2_sp.png" alt="質問タイトルが入ります">
                             <p>質問タイトルが入ります <br>
                                 質問タイトルが入ります</p>
                         </div>
