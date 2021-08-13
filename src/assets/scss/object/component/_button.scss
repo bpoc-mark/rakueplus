@@ -353,60 +353,66 @@
 
 	@include is-sp {
 		flex-wrap: wrap;
-		justify-content: flex-start;
 	}
 
-	img {
-		&:nth-of-type(1) {
-			padding-right: 30px;
-
-			@include is-sp {
-				padding-top: 15px;
-				order: 3;
-			}
-
-			@include is-max(425px) {
-				padding-right: 15px;
-				padding-left: 10px;
-				width: 20%;
-			}
+	.img_1 {
+		@include is-sp {
+			order: 3;
+			padding-top: 10px;
 		}
 
-		&:nth-of-type(2) {
-			padding-right: 15px;
+		@include is-max(425px) {
+			width: 15%;
+		}
+	}
 
+	.img_2 {
+		padding-left: 30px;
+
+		@include is-sp {
+			order: 1;
+			padding-left: 60px;
+		}
+
+		@include is-max(425px) {
+			padding-left: 30px;
+			width: 70%;
+		}
+	}
+
+	.img_3 {
+		padding-left: 13px;
+
+		@include is-sp {
+			order: 2;
+			width: 30%;
+		}
+
+		@include is-max(425px) {
+			width: 30%;
+		}
+	}
+
+	.img_4 {
+		padding-left: 18px;
+
+		@include is-sp {
+			order: 4;
+			padding-top: 15px;
+			width: 80%;
+		}
+
+		img {
 			@include is-sp {
-				order: 1;
 				width: 70%;
-				padding: 0 0 0 60px;
 			}
-
 			@include is-max(425px) {
 				width: 65%;
-				padding: 0 0 0 40px;
-			}
-		}
-
-		&:nth-of-type(3) {
-			padding-right: 18px;
-
-			@include is-sp {
-				order: 2;
-				padding-right: 0;
-				padding-left: 20px;
-			}
-		}
-
-		&:nth-of-type(4) {
-			@include is-sp {
-				order: 4;
-				padding-top: 15px;
-				width: 50%;
 			}
 		}
 	}
 
-	.woman {
+	.img_5 {
 		position: absolute;
 		right: 0;
 		bottom: -25px;
@@ -414,11 +420,6 @@
 		@include is-sp {
 			right: -10px;
 			overflow: hidden;
-		}
-
-		img {
-			padding: 0;
-			width: 100%;
 		}
 	}
 }

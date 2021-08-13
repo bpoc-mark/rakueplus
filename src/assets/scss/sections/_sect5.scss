@@ -1,4 +1,6 @@
 .sect_5 {
+	overflow: hidden;
+
 	.l-wrap {
 		@include is-sp {
 			padding-right: 0;
