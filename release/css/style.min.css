@@ -492,7 +492,7 @@ template{display:none}
 .u-pl-010em{padding-left:10em !important}
 .u-pl-011em{padding-left:11em !important}
 .sect_1 .l-wrap{background-color:red}
-.sect_4{padding-top:125px;padding-bottom:58px;position:relative}
+.sect_4{padding-top:125px;padding-bottom:58px}
 .sect_4 .bg_overlay{background-color:#e9eeee;content:"";position:absolute;z-index:-1;height:100%;width:330px;top:0;right:0}
 .sect_4__heading-title{font-size:2rem;font-weight:700;text-align:center;font-family:noto-sans-cjk-jp,sans-serif}
 .sect_4__heading-title p{position:relative}
