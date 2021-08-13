@@ -17,7 +17,7 @@
                 padding: 0 60px;
             }
 
-            @include is-sp {
+            @include is-max(950px) {
                 padding: 0 60px;
                 width: 100%;
                 position: relative;
@@ -54,9 +54,9 @@
 
             .girl {
                 position: absolute;
-                top: 11%;
+                top: 90px;
 
-                @include is-sp {
+                @include is-max(950px) {
                    display: none;
                 }
               
@@ -67,9 +67,11 @@
                 position: absolute;
                 display: none;
 
-                @include is-sp {
+                @include is-max(950px) {
                     bottom: 105px;
                     display: block;
+                    left: 50%;
+                    transform: translateX(-75%);
                 }
               
             }
@@ -80,17 +82,26 @@
                 display: flex;
                 margin-left: 93px;
 
-                @include is-sp {
+                @include is-max(1050px) {
+                    margin-left: 125px;
+                }
+
+                @include is-max(950px) {
                     padding-top: 60px;
                     margin-left: 0;
                     flex-direction: column;
                 }
 
                 .col {
-                    width: 27%;
+                    // width: 27%;
+                    width: 280px;
                     margin-left: 55px;
 
-                    @include is-sp {
+                    @include is-max(1050px) {
+                        margin-left: 25px;
+                    }
+
+                    @include is-max(950px) {
                         width: 100%;
                         margin: 0 auto;
                         padding-bottom: 77px;
@@ -100,7 +111,7 @@
                     .col_heading {
                         position: relative;
 
-                        @include is-sp {
+                        @include is-max(950px) {
                             display: none;
                         }
                         
@@ -116,10 +127,14 @@
                             width: 100%;
                             text-align: center;
                             @include font-line(20);
-                            // font-size: 1.3020833333333333vw;
                             font-weight: 700;
                             font-family: Noto Sans CJK JP;
                             color: #FAFA00;
+
+                            @include is-max(1090px) {
+                                 font-size: 1.3020833333333333vw;
+                            }
+
                         }
                     }
 
@@ -128,9 +143,15 @@
                         position: relative;
                         display: none;
 
-                        @include is-sp {
+                        @include is-max(950px) {
                             display: block;
                             width: 360px;
+                            margin: 0 auto;
+                        }
+
+                        @include is-max(500px) {
+                            display: block;
+                            width: 300px;
                             margin: 0 auto;
                         }
                         
@@ -157,15 +178,18 @@
 
                     .col_body {
                         @include font-line(18);
-                        font-size: 1.171875vw;
                         font-weight: 300;
                         font-family: Noto Sans CJK JP;
                         color: #006795;
                         padding-top: 30px;
 
-                        // @include is-sp {
-                        //     @include font-line(18);
-                        // }
+                        @include is-max(1090px) {
+                            font-size: 1.171875vw;
+                       }
+
+                       @include is-max(950px) {
+                        @include font-line(18);
+                       }
 
                     }
 
