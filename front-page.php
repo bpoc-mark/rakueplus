@@ -31,11 +31,11 @@
                     
                         <div class="col_1__body">
                             <div>
-                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="">
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
                                 <p>営業マニュアルのお渡し</p>
                             </div>
                             <div>
-                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="">
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
                                 <p>ロールプレイング</p>
                             </div>
                         </div>
@@ -51,15 +51,15 @@
 
                         <div class="col_2__body">
                             <div>
-                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="">
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
                                 <p>営業マニュアルのお渡し</p>
                             </div>
                             <div>
-                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="">
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
                                 <p>ロールプレイング</p>
                             </div>
                             <div>
-                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="">
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
                                 <p>営業同行 1回</p>
                             </div>
                         </div>
@@ -76,15 +76,15 @@
 
                         <div class="col_3__body">
                             <div>
-                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="">
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
                                 <p>営業マニュアルのお渡し</p>
                             </div>
                             <div>
-                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="">
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
                                 <p>ロールプレイング</p>
                             </div>
                             <div>
-                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="">
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
                                 <p>営業同行 5回</p>
                             </div>
                         </div>
