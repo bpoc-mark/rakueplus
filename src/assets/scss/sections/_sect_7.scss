@@ -167,10 +167,10 @@
                         }
 
                         @include is-max(500px) {
-                            width: 300px;
+                            width: 350px;
                         }
 
-                        @include is-max(435px) {
+                        @include is-max(470px) {
                             width: 100%;
                         }
                         
