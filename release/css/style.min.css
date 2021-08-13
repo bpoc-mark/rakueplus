@@ -499,11 +499,14 @@ template{display:none}
 .sect_1__wrapper .content__col-2 .title_cont{position:relative}
 .sect_1__wrapper .content__col-2 .title_cont .title{color:#006795;font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;font-size:1.875rem}
 .sect_1__wrapper .content__col-2 .title_cont .title span{font-family:noto-sans-cjk-jp,sans-serif;font-size:2.75rem;font-weight:700}
+.sect_1__wrapper .content__col-2 .title_cont .title br{display:none}
 .sect_1__wrapper .content__col-2 .title_cont .line{border-bottom:16px solid #fafa00;margin-top:-25px;z-index:-1;width:69%;position:absolute}
+.sect_1__wrapper .content__col-2 .title_cont .line_sp{border-bottom:16px solid #fafa00;margin-top:-25px;z-index:-1;width:385px;position:absolute;display:none}
 .sect_1__wrapper .content__col-2 .desc{font-family:noto-sans-cjk-jp,sans-serif;font-weight:400;padding:35px 0 0 0;font-size:1.125rem}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .l-wrap{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
+.sect_1__wrapper .content__col-2 .title_cont .line{width:80%}
 }@media only screen and (min-width:751px){.l-container--under{padding-top:40px}
 .l-container.is-column2{margin:0 auto}
 .l-container.is-column3{margin:0 auto}
@@ -564,7 +567,9 @@ template{display:none}
 .testimonial__speech{font-size:1rem;line-height:2}
 .u-d-n-pc{display:none !important}
 }@media only screen and (max-width:1090px){.l-wrap{width:100%}
+}@media only screen and (max-width:800px){.sect_1__wrapper .content__col-2 .title_cont .line{width:90%}
 }@media only screen and (max-width:768px){.sect_1__wrapper .content__col-2 .title_cont .line{width:95%}
+.sect_1__wrapper .content__col-2 .title_cont .line_sp{width:95%;display:block}
 }@media only screen and (max-width:750px){.l-container{display:block}
 .l-container.is-column2{padding-top:20px;display:block}
 .l-container.is-column2 .left,.l-container.is-column2 .right{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;margin-bottom:30px}
@@ -789,8 +794,14 @@ template{display:none}
 .sect_1__wrapper .content__col-2 .title_cont .title span{font-size:2.75rem}
 .sect_1__wrapper .content__col-2 .title_cont .title{font-size:1.75rem}
 .sect_1__wrapper .content__col-2 .title_cont .line{width:100%}
+.sect_1__wrapper .content__col-2 .title_cont .line_sp{width:100%;display:block}
 }@media only screen and (max-width:425px){.sect_1__wrapper .content__col-2 .title_cont .title span{font-size:2.4375rem}
 .sect_1__wrapper .content__col-2 .title_cont .title{font-size:1.4375rem}
+}@media only screen and (max-width:375px){.sect_1__wrapper .content__col-2 .title_cont .title span{font-size:2.75rem}
+.sect_1__wrapper .content__col-2 .title_cont .title{font-size:1.875rem}
+.sect_1__wrapper .content__col-2 .title_cont .title br{display:block}
+.sect_1__wrapper .content__col-2 .title_cont .line{margin-top:-80px;width:100%}
+.sect_1__wrapper .content__col-2 .title_cont .line_sp{top:133px;width:100%;display:block}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 25%{-webkit-transform:rotate(0);transform:rotate(0)}
 50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);color:#fff}

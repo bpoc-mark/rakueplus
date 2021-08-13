@@ -9,8 +9,9 @@
 
                 <div class="content__col-2">
                     <div class="title_cont">
-                        <p class="title"><span>RAKUE＋</span>（ラクエプラス）</p>
+                        <p class="title"><span>RAKUE＋</span><br>（ラクエプラス）</p>
                         <div class="line"></div>
+                        <div class="line_sp"></div>
                     </div>
                     <p class="desc">説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。</p>
                 </div>
