@@ -1,6 +1,17 @@
 .sect_1 {
 	&__wrapper {
-		padding: 55px 0 50px 0;
+		.images {
+			display: flex;
+			padding: 0 0 55px 0;
+
+			.img {
+				width: calc(100% / 5);
+			}
+
+			.img img {
+				width: 100%;
+			}
+		}
 
 		.content {
 			display: flex;
