@@ -1,5 +1,184 @@
-.sect_1{
-    .l-wrap{
-        background-color: red;
-    }
+.sect_1 {
+	&__wrapper {
+		padding-bottom: 60px;
+
+		@include is-sp{
+			padding-bottom: 50px;
+		}
+
+		.slick-prev {
+			display: none !important;
+		}
+
+		.slick-next {
+			display: none !important;
+		}
+
+		.images {
+			display: flex;
+			padding: 0 0 60px 0;
+
+			.img {
+				width: calc(100% / 5);
+			}
+
+			.img img {
+				width: 100%;
+			}
+
+			@include is-sp{
+				padding: 0 0 70px 0;
+			}
+		}
+
+		.content {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			@include is-sp {
+				flex-direction: column-reverse;
+			}
+
+			&__col-1 {
+				width: 36.7%;
+				img {
+					width: 100%;
+				}
+
+				@include is-sp {
+					width: 100%;
+					padding: 20px 0 0 0;
+				}
+			}
+
+			&__col-2 {
+				width: 55.05%;
+
+				@include is-max(1090px){
+					padding-right: 30px;
+				}
+
+				@include is-sp {
+					width: 100%;
+					padding-right: 0
+				}
+
+				.title_cont {
+					position: relative;
+
+					@include is-sp {
+						margin: 0 auto;
+					}
+
+					.title {
+						color: #006795;
+						font-family: noto-sans-cjk-jp, sans-serif;
+						font-weight: 700;
+
+						@include font-line(30);
+
+						span {
+							font-family: noto-sans-cjk-jp, sans-serif;
+							@include font-line(44);
+							font-weight: 700;
+
+							@include is-sp {
+								@include font-line(44);
+							}
+
+							@include is-max(425px) {
+								@include font-line(39);
+							}
+
+							@include is-max(375px) {
+								@include font-line(44);
+							}
+						}
+
+						@include is-sp {
+							@include font-line(28);
+						}
+
+						@include is-max(425px) {
+							@include font-line(23);
+						}
+
+						@include is-max(375px) {
+							@include font-line(30);
+						}
+
+						br {
+							display: none;
+
+							@include is-max(375px) {
+								display: block;
+							}
+						}
+					}
+
+					.line {
+						border-bottom: 16px solid #fafa00;
+						margin-top: -25px;
+						z-index: -1;
+						width: 69%;
+						position: absolute;
+
+						@include is-sp {
+							width: 100%;
+						}
+
+						@include is-tab {
+							width: 80%;
+						}
+
+						@include is-max(768px) {
+							width: 95%;
+						}
+
+						@include is-max(375px) {
+							margin-top: -80px;
+							width: 100%;
+						}
+						@include is-max(800px) {
+							width: 90%;
+						}
+					}
+
+					.line_sp {
+						border-bottom: 16px solid #fafa00;
+						margin-top: -25px;
+						z-index: -1;
+						width: 385px;
+						position: absolute;
+						display: none;
+
+						@include is-sp {
+							width: 100%;
+							display: block;
+						}
+
+						@include is-max(768px) {
+							width: 95%;
+							display: block;
+						}
+
+						@include is-max(375px) {
+							top: 133px;
+							width: 100%;
+							display: block;
+						}
+					}
+				}
+
+				.desc {
+					font-family: noto-sans-cjk-jp, sans-serif;
+					font-weight: 400;
+					padding: 35px 0 0 0;
+
+					@include font-line(18);
+				}
+			}
+		}
+	}
 }
