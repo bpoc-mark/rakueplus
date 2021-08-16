@@ -1,5 +1,13 @@
 .sect_1 {
 	&__wrapper {
+		.slick-prev {
+			display: none !important;
+		}
+
+		.slick-next {
+			display: none !important;
+		}
+
 		.images {
 			display: flex;
 			padding: 0 0 55px 0;

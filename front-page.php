@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section class="sect_1">
     <div class="sect_1__wrapper">
-        <div class="images">
+        <div class="images cont_slider">
             <div class="img">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/img_1.png" alt="">
             </div>
