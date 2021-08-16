@@ -129,7 +129,8 @@
                     .col_heading {
                         position: relative;
                         width: 105%;
-                        height: 110px;
+                        padding-top: 26px;
+                        padding-bottom: 23px;
                         background: #006795;
                         border-radius: 96px;
                         display: flex;
@@ -138,21 +139,15 @@
 
                         @include is-max(1090px) {
                             width: 100%;
-                            height: 80px;
                         }
 
                         @include is-max(950px) {
                             width: 360px;
                             margin: 0 auto;
-                            height: 100px;
                         }
 
                         @include is-max(480px) {
                             width: 100%;
-                        }
-
-                        @include is-max(390px) {
-                            height: 70px;
                         }
 
 
