@@ -128,7 +128,7 @@
 
                     .col_heading {
                         position: relative;
-                        width: 110%;
+                        width: 105%;
                         height: 110px;
                         background: #006795;
                         border-radius: 96px;
@@ -144,11 +144,17 @@
                         @include is-max(950px) {
                             width: 360px;
                             margin: 0 auto;
+                            height: 100px;
                         }
 
                         @include is-max(480px) {
                             width: 100%;
                         }
+
+                        @include is-max(390px) {
+                            height: 70px;
+                        }
+
 
                         img {
                             position: absolute;
