@@ -1,0 +1,381 @@
+.sect_6 {
+
+    background-color: #006795;
+
+    &__wrapper {
+
+        padding-bottom: 110px;
+
+        @include is-sp {
+            padding-bottom: 0;
+        }
+
+        .l-wrap {
+
+            @include is-max(1090px) {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+            @include is-sp{
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+
+            @include is-max(425px){
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            
+            // heading
+            .heading {
+                
+                h3 {
+                    padding-top: 75px;
+                    padding-bottom: 70px;
+                    color: #FAFA00;
+                    @include font-line(42);
+                    font-family: Noto Sans CJK JP;
+                    text-align: center;
+                    font-weight: 700;
+
+                    br {
+                        display: none;
+
+                        @include is-max(479px) {
+                            display: block;
+                        }
+                    }
+
+                    @include is-sp{
+                        padding-top: 85px;
+                        padding-bottom: 60px; 
+                        line-height: 50px;
+                        letter-spacing: -2px;
+                    }
+                }
+
+            }
+
+            // row
+            .row {
+
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                // column 1
+                .col {   
+                    width: 27.52%;
+
+                    @include is-max(1090px) {
+                       width: 30%;
+                    }
+
+                    @include is-max(920px) {
+                        width: 48%;
+                        padding-bottom: 80px;
+                    }
+
+                    @include is-sp{
+                        width: 100%;
+                    }
+
+                    .col_heading {
+                        @include is-max(920px) {
+                            text-align: center;
+                    
+                            img {
+                                width: 360px;
+                            }
+
+                        }
+
+                        @include is-sp {
+                            width: 100%;
+                        }
+                    }
+
+                    &:not(:first-child){
+                        .body {
+                            padding: 50px 0 25px; 
+
+                            @include is-sp{
+                                padding: 35px 0 40px;
+                            }
+                        }
+                    }
+        
+                    .body {
+                        padding: 50px 0 40px;
+
+                        @include is-sp{
+                            padding: 35px 0 40px;
+                        }
+
+                        div {
+                            display: flex;
+                            align-items: center;
+                            padding-bottom: 5px;
+                            img {
+                                padding-right: 5px;
+                            }
+
+                            p {
+                                @include font-line(22);
+                                font-weight: 500;
+                                font-family: Noto Sans CJK JP;
+                                color: #fff;
+                                letter-spacing: -1px;
+
+                                @include is-sp{
+                                    @include font-line(27.5); 
+                                }
+                                @include is-max(379px){
+                                    @include font-line(22); 
+                                }
+                            }
+
+                        }
+                        
+                    }
+
+                    .desc{
+                        @include font-line(18, 29.7);
+                        font-weight: 400;
+                        font-family: noto-sans-cjk-jp, sans-serif;
+                        color: #fff;
+                    }
+
+                }
+                // column 2
+                // .col_2 {   
+
+                //     @include is-max(1090px) {
+                //        width: 30%;
+                //     }
+
+                //     @include is-max(850px) {
+                //         width: 48%;
+                //         padding-bottom: 80px;
+                //      }
+
+                //      .col_heading {
+                //         @include is-max(850px) {
+                //             text-align: center;
+                       
+                //                 img {
+                //                     width: 300px;
+                //                  }
+
+                //          }
+
+                //          @include is-sp {
+                //              width: 100%;
+
+                //          }
+                //      }
+        
+
+                //     &__body {
+
+
+                //         padding: 55px 0;
+
+                //         div {
+                //             display: flex;
+                //             align-items: center;
+                            
+                //             img {
+                //                 padding-right: 5px;
+
+                //             }
+
+                //             p {
+                //                 @include font-line(22);
+                //                 font-weight: 500;
+                //                 font-family: Noto Sans CJK JP;
+                //                 color: #fff;
+                //                 letter-spacing: -1px;
+
+                //                 @include is-max(1090px) {
+                //                     width: 100%;
+                //                     font-size: 18px;
+                //                  }
+
+                //                  @include is-max(850px) {
+                //                     font-size: 27.5px;
+                //                  }
+
+                //                  @include is-max(450px) {
+                //                     font-size: 24.5px;
+                //                  }
+
+                //                  @include is-max(405px) {
+                //                     font-size: 20.5px;
+                //                  }
+
+                //                  @include is-max(362px) {
+                //                     font-size: 16.5px;
+                //                  }
+
+                //             }
+
+                //             &:first-child {
+                //                 padding-bottom: 16px;
+                //             }
+
+                //             &:nth-child(2) {
+                //                 padding-bottom: 16px;
+                //             }
+
+                //         }
+                        
+                //     }
+
+                //     p {
+                //         width: 300px;
+                //         @include font-line(18);
+                //         letter-spacing: 2px;
+                //         font-weight: 300;
+                //         font-family: Noto Sans CJK JP;
+                //         color: #fff;
+                //         line-height: 29px;
+
+                //         @include is-max(1090px) {
+                //             width: 100%;
+                //             font-size: 18px;
+                //          }
+
+                //          @include is-sp {
+                //              font-size: 18px;
+                //          }
+
+                //          @include is-max(362px) {
+                //             font-size: 16px;
+                //          }
+
+
+                //     }
+
+                // }
+                // column 3
+                // .col_3 {   
+
+                //     @include is-max(1090px) {
+                //        width: 30%;
+                //     }
+
+                //     @include is-max(850px) {
+                //         width: 48%;
+                //      }
+
+                //      .col_heading {
+                //         @include is-max(850px) {
+                //             text-align: center;
+                       
+                //                 img {
+                //                     width: 300px;
+                //                  }
+
+                //          }
+
+                //          @include is-sp {
+                //              width: 100%;
+
+                //          }
+                //      }
+        
+
+                //     &__body {
+
+
+                //         padding: 55px 0;
+
+                //         div {
+                //             display: flex;
+                //             align-items: center;
+                            
+                //             img {
+                //                 padding-right: 5px;
+
+                //             }
+
+                //             p {
+                //                 @include font-line(22);
+                //                 font-weight: 500;
+                //                 font-family: Noto Sans CJK JP;
+                //                 color: #fff;
+                //                 letter-spacing: -1px;
+
+                //                 @include is-max(1090px) {
+                //                     width: 100%;
+                //                     font-size: 18px;
+                //                  }
+
+                //                  @include is-max(850px) {
+                //                     font-size: 27.5px;
+                //                  }
+
+                //                  @include is-max(450px) {
+                //                     font-size: 24.5px;
+                //                  }
+
+                //                  @include is-max(405px) {
+                //                     font-size: 20.5px;
+                //                  }
+
+                //                  @include is-max(362px) {
+                //                     font-size: 16.5px;
+                //                  }
+
+                //             }
+
+                //             &:first-child {
+                //                 padding-bottom: 16px;
+                //             }
+
+                //             &:nth-child(2) {
+                //                 padding-bottom: 16px;
+                //             }
+
+                //         }
+                        
+                //     }
+
+                //     p {
+                //         width: 300px;
+                //         @include font-line(18);
+                //         letter-spacing: 2px;
+                //         font-weight: 300;
+                //         font-family: Noto Sans CJK JP;
+                //         color: #fff;
+                //         line-height: 29px;
+
+                //         @include is-max(1090px) {
+                //             width: 100%;
+                //             font-size: 18px;
+                //          }
+
+                //          @include is-sp {
+                //              font-size: 18px;
+                //          }
+
+                //          @include is-max(362px) {
+                //             font-size: 16px;
+                //          }
+
+
+                //     }
+
+                // }
+
+
+
+            }
+
+        }
+
+    }
+
+}

@@ -15,7 +15,86 @@
         
     </section>
     <section class="sect_6">
-        
+        <div class="sect_6__wrapper">
+            <div class="l-wrap">
+                <!-- heading -->
+                <div class="heading">
+                    <h3>RAKUE+の<br>提供価値</h3>
+                </div>
+                <!-- row -->
+                <div class="row">
+                    <!-- column 1 -->
+                    <div class="col">
+                        <div class="col_heading">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_1.png" alt="RAKUE + 松 プラン">
+                        </div>
+                    
+                        <div class="body">
+                            <div>
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                                <p>営業マニュアルのお渡し</p>
+                            </div>
+                            <div>
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                                <p>ロールプレイング</p>
+                            </div>
+                        </div>
+
+                        <p class="desc">説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。</p>
+                    </div>
+
+                    <!-- column 2 -->
+                    <div class="col">
+                        <div class="col_heading">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_2.png" alt="RAKUE + 竹 プラン">
+                        </div>
+
+                        <div class="body">
+                            <div>
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                                <p>営業マニュアルのお渡し</p>
+                            </div>
+                            <div>
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                                <p>ロールプレイング</p>
+                            </div>
+                            <div>
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                                <p>営業同行 1回</p>
+                            </div>
+                        </div>
+
+                        <p class="desc">説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。</p>
+                    </div>
+
+                    <!-- column 3 -->
+                    <div class="col">
+                        <div class="col_heading">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_3.png" alt="RAKUE + 梅 プラン">
+                        </div>
+                        
+
+                        <div class="body">
+                            <div>
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                                <p>営業マニュアルのお渡し</p>
+                            </div>
+                            <div>
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                                <p>ロールプレイング</p>
+                            </div>
+                            <div>
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                                <p>営業同行 5回</p>
+                            </div>
+                        </div>
+
+                        <p class="desc">説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
     <section class="sect_7">
         
@@ -30,7 +109,7 @@
                     ・【必須】の項目は必ず入力してください。
                 </p>
                 <div class="form_container">
-                    <?php echo do_shortcode('[contact-form-7 id="26" title="Contact form 1"]'); ?>
+                    <?php echo do_shortcode('[contact-form-7 id="28" title="Contact form 1"]'); ?>
                 </div>
             </div>
         </div>
