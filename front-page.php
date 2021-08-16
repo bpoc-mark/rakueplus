@@ -97,7 +97,52 @@
         </div>
     </section>
     <section class="sect_7">
-        
+        <div class="sect_7__wrapper">
+            <div class="l-wrap">
+
+                <!-- heading -->
+                <div class="heading">
+                    <p>よくある質問</p>
+                </div>
+
+                <!-- girl image -->
+                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_1.png" alt="Girl" class="girl">
+
+                <!-- row -->
+                <div class="row">
+                    <!-- column 1 -->
+                    <div class="col">
+                        <div class="col_heading">
+                            <p>質問タイトルが入ります <br>
+                                質問タイトルが入ります</p>
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="rectangle">
+                        </div>
+                        <p class="col_body">回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。</p>
+                    </div>
+
+                    <div class="col">
+                        <div class="col_heading">
+                            <p>質問タイトルが入ります <br>
+                                質問タイトルが入ります</p>
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="rectangle">
+                        </div>
+                        <p class="col_body">回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。</p>
+                    </div>
+   
+                    <div class="col">
+                        <div class="col_heading">
+                            <p>質問タイトルが入ります <br>
+                                質問タイトルが入ります</p>
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="rectangle">
+                        </div>
+                        <p class="col_body">回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。</p>
+                    </div>
+
+                </div>
+               
+                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_1_sp.png" alt="Girl" class="girl_sp">
+            </div>
+        </div>
     </section>
     <section class="sect_8">
         <div class="sect_8__wrapper">

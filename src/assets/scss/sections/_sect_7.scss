@@ -1,0 +1,178 @@
+.sect_7 {
+
+    &__wrapper {
+        
+        padding-top: 120px;
+        padding-bottom: 130px;
+
+        @include is-max(880px) {
+            padding-top: 90px;
+        }
+
+        @include is-sp {
+            padding-top: 100px;
+            padding-bottom: 90px;
+        }
+        
+        .l-wrap {
+            width: 1140px;
+            position: relative;
+            padding-right: 30px;
+
+            @include is-max(1140px) {
+                width: 100%;
+            }
+
+            @include is-max(880px) {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            @include is-sp{
+                padding-right: 60px;
+                padding-left: 60px;
+            }
+
+            @include is-max(425px) {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .heading {
+                position: relative;
+                width: 215px;
+                margin: 0 auto;
+
+                p {
+                    color: #006795;
+                    @include font-line(32);
+                    font-weight: 700;
+                    font-family: Noto Sans CJK JP;
+                    text-align: center;
+                    
+                }
+                
+
+                &::after {
+                    content: '';
+                    width: 95%;
+                    background: #FAFA00;
+                    height: 16px;
+                    position: absolute;
+                    bottom: 3px;
+                    z-index: -1;
+                    margin-left: 6px;
+                }
+
+            }
+
+            .girl {
+                position: absolute;
+                top: -28px;
+                left: -20px;
+                @include is-max(880px) {
+                    left: 20px;
+                }
+
+                @include is-sp{
+                    display: none;
+                }
+              
+            }
+
+            // for sp
+            .girl_sp {
+                display: none;
+                margin: 0 auto;
+                @include is-sp {
+                    display: block;
+                }
+              
+            }
+
+
+            .row {
+                width: 970px;
+                padding-top: 75px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-left: auto;
+
+                @include is-max(1140px) {
+                    width: 85.09%;
+                }
+
+                @include is-max(880px) {
+                    width: 80%;
+                }
+
+                @include is-sp{
+                    width: 100%;
+                    padding-top: 60px;
+                }
+
+                .col {
+                    width: 280px;
+
+                    @include is-max(1090px){
+                        width: 32%;
+                    }
+
+                    @include is-max(880px) {
+                        width: 48%;
+                        margin-bottom: 40px;
+                    }
+
+                    @include is-sp{
+                        width: 100%;
+
+                        &:not(:last-child){
+                            margin-bottom: 75px;
+                        }
+                    }
+
+                    .col_heading {
+                        position: relative;
+                        width: 100%;
+                        padding-top: 25px;
+                        padding-bottom: 25px;
+                        background: #006795;
+                        border-radius: 100px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            position: absolute;
+                            bottom: -11px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                        }
+
+                        p {
+                            @include font-line(20, 30);
+                            font-weight: 700;
+                            font-family: noto-sans-cjk-jp, sans-serif;
+                            color: #FAFA00;
+                        }
+                    }
+
+
+                    .col_body {
+                        @include font-line(18, 29.7);
+                        font-weight: 400;
+                        font-family: noto-sans-cjk-jp, sans-serif;
+                        color: #006795;
+                        padding-top: 30px;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
