@@ -40,7 +40,7 @@
                         <div class="col_heading">
                             <p>質問タイトルが入ります <br>
                                 質問タイトルが入ります</p>
-                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="">
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="rectangle">
                         </div>
 
                      
@@ -55,7 +55,7 @@
                         <div class="col_heading">
                             <p>質問タイトルが入ります <br>
                                 質問タイトルが入ります</p>
-                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="">
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="rectangle">
                         </div>
 
 
@@ -68,7 +68,7 @@
                         <div class="col_heading">
                             <p>質問タイトルが入ります <br>
                                 質問タイトルが入ります</p>
-                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="">
+                                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="rectangle">
                         </div>
 
 
