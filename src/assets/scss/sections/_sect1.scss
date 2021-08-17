@@ -75,8 +75,18 @@
 						color: #006795;
 						font-family: noto-sans-cjk-jp, sans-serif;
 						font-weight: 700;
-
+						background: linear-gradient(0deg, #fafa00 0%, #fafa00 30%, rgba(255,255,255,0) 30%);
 						@include font-line(30);
+
+						span{
+							&:nth-of-type(1){
+								@include font-line(44);
+							}
+							&:nth-of-type(2){
+								@include font-line(30);
+								margin-left: -15px;
+							}
+						}
 
 						span {
 							font-family: noto-sans-cjk-jp, sans-serif;
@@ -95,78 +105,12 @@
 								@include font-line(44);
 							}
 						}
-
-						@include is-sp {
-							@include font-line(28);
-						}
-
-						@include is-max(425px) {
-							@include font-line(23);
-						}
-
-						@include is-max(375px) {
-							@include font-line(30);
-						}
-
 						br {
 							display: none;
 
-							@include is-max(375px) {
+							@include is-max(480px) {
 								display: block;
 							}
-						}
-					}
-
-					.line {
-						border-bottom: 16px solid #fafa00;
-						margin-top: -25px;
-						z-index: -1;
-						width: 69%;
-						position: absolute;
-
-						@include is-sp {
-							width: 100%;
-						}
-
-						@include is-tab {
-							width: 80%;
-						}
-
-						@include is-max(768px) {
-							width: 95%;
-						}
-
-						@include is-max(375px) {
-							margin-top: -80px;
-							width: 100%;
-						}
-						@include is-max(800px) {
-							width: 90%;
-						}
-					}
-
-					.line_sp {
-						border-bottom: 16px solid #fafa00;
-						margin-top: -25px;
-						z-index: -1;
-						width: 385px;
-						position: absolute;
-						display: none;
-
-						@include is-sp {
-							width: 100%;
-							display: block;
-						}
-
-						@include is-max(768px) {
-							width: 95%;
-							display: block;
-						}
-
-						@include is-max(375px) {
-							top: 133px;
-							width: 100%;
-							display: block;
 						}
 					}
 				}

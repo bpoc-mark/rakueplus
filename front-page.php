@@ -26,9 +26,7 @@
 
                     <div class="content__col-2">
                         <div class="title_cont">
-                            <p class="title"><span>RAKUE＋</span><br>（ラクエプラス）</p>
-                            <div class="line"></div>
-                            <div class="line_sp"></div>
+                            <span class="title"><span>RAKUE＋</span><br><span>（ラクエプラス）</span></span>
                         </div>
                         <p class="desc">説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。</p>
                     </div>
