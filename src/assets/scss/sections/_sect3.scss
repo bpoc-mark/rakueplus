@@ -3,6 +3,13 @@
 	padding-top: 90px;
 	padding-bottom: 110px;
 
+	.l-wrap{
+		@include is-max(1090px){
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+
 	@include is-sp {
 		padding-top: 80px;
 		padding-bottom: 70px;
@@ -21,10 +28,16 @@
 
 	&__boxes {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
-		column-gap: 40px;
+		// column-gap: 40px;
+		width: 760px;
+		margin: 0 auto;
 		padding-top: 50px;
+
+		@include is-max(800px){
+			width: 100%;
+		}
 
 		@include is-sp {
 			display: block;
@@ -51,6 +64,10 @@
 			height: 360px;
 			text-align: center;
 			border-bottom-right-radius: 50px;
+
+			@include is-max(800px) {
+				width: 48%;
+			}
 
 			@include is-sp {
 				width: 100%;

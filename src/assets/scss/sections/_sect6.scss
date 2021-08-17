@@ -6,6 +6,10 @@
 
         padding-bottom: 110px;
 
+        @include is-max(920px){
+            padding-bottom: 50px;
+        }
+
         @include is-sp {
             padding-bottom: 0;
         }
