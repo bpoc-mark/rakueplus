@@ -42,3 +42,7 @@ $(window).on('resize', function () {
     $('.cont_slider').slick(settings);
   }
 });
+
+if ($(window).width() < 751 && !sl.hasClass('slick-initialized')) {
+  $('.cont_slider').slick(settings);
+}
