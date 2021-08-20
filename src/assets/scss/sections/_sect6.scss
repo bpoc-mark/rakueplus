@@ -3,7 +3,7 @@
     background-color: #006795;
 
     &__wrapper {
-
+        overflow: hidden;
         padding-bottom: 110px;
 
         @include is-max(920px){
@@ -34,28 +34,30 @@
             // heading
             .heading {
                 
-                h3 {
-                    padding-top: 75px;
-                    padding-bottom: 70px;
-                    color: #FAFA00;
-                    @include font-line(42);
-                    font-family: Noto Sans CJK JP;
-                    text-align: center;
-                    font-weight: 700;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 80px;
+                padding-bottom: 82px;
 
-                    br {
+                @media (max-width: 751px) {
+                   padding-top: 83px;
+                   padding-bottom: 45px;
+
+                 }
+
+                .pc {
+
+                    @media (max-width: 920px) {
                         display: none;
-
-                        @include is-max(479px) {
-                            display: block;
-                        }
                     }
+                }
 
-                    @include is-sp{
-                        padding-top: 85px;
-                        padding-bottom: 60px; 
-                        line-height: 50px;
-                        letter-spacing: -2px;
+                .sp {
+                    display: none;
+
+                    @media (max-width: 920px) {
+                        display: block;
                     }
                 }
 
@@ -68,16 +70,43 @@
                 justify-content: space-between;
                 flex-wrap: wrap;
 
+                @media (max-width: 920px) {
+                    padding-bottom: 9px;
+                }
+
                 // column 1
                 .col {   
                     width: 27.52%;
+                    position: relative;
+
+                    @media (max-width: 920px) {
+                        padding-top: 62px;
+                        padding-bottom: 75px;
+                    }
+
+                   
+
+                    .yellow_line_sp {
+                        display: none;
+                        width: 130vw;
+                        position: absolute;
+                        height: 2px;
+                        top: 0;
+                        background-color: #FAFA00;
+                        transform: translateX(-17%);
+
+                        @media (max-width: 920px) {
+                            display: block;
+                        }
+
+                    }
 
                     @include is-max(1090px) {
                        width: 30%;
                     }
 
                     @include is-max(920px) {
-                        width: 48%;
+                        width: 100%;
                         padding-bottom: 80px;
                     }
 
@@ -95,6 +124,26 @@
 
                         }
 
+                        .pc {
+
+                            @media (max-width: 920px) {
+                                display: none;
+                            }
+
+                        }
+
+                        .sp {
+
+                            display: none;
+
+                            @media (max-width: 920px) {
+                                display: block;
+                                width: 360px;
+                                margin: 0 auto;
+                            }
+
+                        }
+
                         @include is-sp {
                             width: 100%;
                         }
@@ -102,53 +151,103 @@
 
                     &:not(:first-child){
                         .body {
-                            padding: 50px 0 25px; 
+                            padding: 50px 0 40px; 
 
                             @include is-sp{
                                 padding: 35px 0 40px;
                             }
+
                         }
                     }
+                    
         
                     .body {
-                        padding: 50px 0 40px;
+                        padding: 40px 0 40px;
 
                         @include is-sp{
-                            padding: 35px 0 40px;
+                            padding: 40px 0 0;
                         }
 
                         div {
                             display: flex;
-                            align-items: center;
-                            padding-bottom: 5px;
+                            align-items: baseline;
+                            
                             img {
                                 padding-right: 5px;
                             }
 
                             p {
+
+                                @media (max-width: 920px) {
+                                   br {
+                                       display: none;
+                                   }
+                                }
+
                                 @include font-line(22);
                                 font-weight: 500;
                                 font-family: Noto Sans CJK JP;
                                 color: #fff;
-                                letter-spacing: -1px;
+                                letter-spacing: 0;
 
-                                @include is-sp{
-                                    @include font-line(27.5); 
+                                span {
+                                    color: #FAFA00;
                                 }
-                                @include is-max(379px){
-                                    @include font-line(22); 
-                                }
+
+                            }
+
+                        }
+
+                        .sm_text {
+                            align-items: baseline;
+
+                            p {
+
+                                @include font-line(18);
+                                font-weight: 300;
+                                font-family: Noto Sans CJK JP;
+                                color: #fff;
+                                line-height: 29.7px;
+                                letter-spacing: 0;
                             }
 
                         }
                         
                     }
 
-                    .desc{
-                        @include font-line(18, 29.7);
-                        font-weight: 400;
-                        font-family: noto-sans-cjk-jp, sans-serif;
-                        color: #fff;
+                    .line {
+                        border: 2px dotted white;
+                        display: block;
+                    }
+
+                    .footer {
+                        padding-top: 30px;
+
+                        .sm_text {
+                            display: flex;
+                            align-items: baseline;
+                            
+                            img {
+                                padding-right: 5px;
+                            }
+
+                            p {
+                                @include font-line(18);
+                                font-weight: 300;
+                                font-family: Noto Sans CJK JP;
+                                color: #fff;
+                                line-height: 29.7px;
+                                letter-spacing: -1px;
+
+                                @media (max-width: 920px) {
+                                    br {
+                                        display: none;
+                                    }
+                                 }
+                            }
+
+                        }
+
                     }
 
                 }
