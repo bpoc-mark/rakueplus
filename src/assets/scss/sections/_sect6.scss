@@ -209,6 +209,11 @@
                                 color: #fff;
                                 line-height: 29.7px;
                                 letter-spacing: 0;
+
+                                br {
+                                    display: block;
+                                }
+
                             }
 
                         }
@@ -239,11 +244,11 @@
                                 line-height: 29.7px;
                                 letter-spacing: -1px;
 
-                                @media (max-width: 920px) {
-                                    br {
-                                        display: none;
-                                    }
-                                 }
+                                // @media (max-width: 920px) {
+                                //     br {
+                                //         display: none;
+                                //     }
+                                //  }
                             }
 
                         }
