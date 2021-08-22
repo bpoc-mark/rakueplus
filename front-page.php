@@ -247,29 +247,38 @@
                     <!-- column 1 -->
                     <div class="col">
                         <div class="col_heading">
-                            <p>質問タイトルが入ります <br>
-                                質問タイトルが入ります</p>
+                            <p>窓交換の省エネ効果って <br>
+                                どれくらいなの？</p>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="rectangle">
                         </div>
-                        <p class="col_body">回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。</p>
+                        <p class="col_body">建物開口部は冬は58％、夏は73％の熱量影響があります。窓交換すれば体感値が変わります。</p>
                     </div>
 
                     <div class="col">
                         <div class="col_heading">
-                            <p>質問タイトルが入ります <br>
-                                質問タイトルが入ります</p>
+                            <p>施工は本当に <br>
+                            難しくないの？</p>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="rectangle">
                         </div>
-                        <p class="col_body">回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。</p>
+                        <p class="col_body">施工スキルの標準化を実現しておりますのでご安心ください。女性でも取り付けが可能です！工期短縮、コストカットによる案件あたりの粗利率の向上が見込めます！</p>
                     </div>
    
                     <div class="col">
                         <div class="col_heading">
-                            <p>質問タイトルが入ります <br>
-                                質問タイトルが入ります</p>
+                            <p>うまく提案できるか、 <br>
+                            ニーズを掘り起こせるかが心配</p>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="rectangle">
                         </div>
-                        <p class="col_body">回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。回答テキストが入ります。</p>
+                        <p class="col_body">提案に関して、導入時のサポートで習得頂けますし、パックによっては同席サポートという手厚いフォローをご活用ください！ニーズの掘り起こしに関してもチラシやLPの提供など万全の準備ができております！</p>
+                    </div>
+
+                    <div class="col">
+                        <div class="col_heading">
+                            <p>RAKUE+の魅力を <br>
+                            一言で言うと？</p>
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="rectangle">
+                        </div>
+                        <p class="col_body">圧倒的な顧客満足度UPと他社との差別化、これにつきます！</p>
                     </div>
 
                 </div>
