@@ -1,7 +1,7 @@
 .sect_8{
     &__wrapper{
         padding-top: 110px;
-        padding-bottom: 120px;
+        padding-bottom: 100px;
         background-color: #e9eeee;
 
         @include is-sp{
@@ -92,7 +92,8 @@
                 input[type="text"],
                 input[type="email"],
                 input[type="tel"],
-                textarea
+                textarea, 
+                select
                 {
                     background-color: #fff;
                     color: #000;
