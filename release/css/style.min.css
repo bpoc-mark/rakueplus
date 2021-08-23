@@ -998,6 +998,7 @@ template{display:none}
 .sect_7__wrapper .l-wrap{padding-right:30px;padding-left:30px}
 }@media only screen and (max-width:379px){.sect_6__wrapper .l-wrap .row .col .body div p{font-size:1.375rem}
 }@media only screen and (max-width:375px){.sect_1__wrapper .content__col-2 .title_cont .title span{font-size:2.75rem}
+.sect_7__wrapper .l-wrap .row .col .col_heading p{font-size:1rem;line-height:1.875}
 }@media only screen and (max-width:370px){.page__header .header_container .l-wrap .head_cont .head_cont_2 p span{letter-spacing:0}
 }@media only screen and (max-width:350px){.sect_8__wrapper .l-wrap__header br{display:block}
 }@media only screen and (max-width:295px){.sect_4__cont_flex .person{width:100%}

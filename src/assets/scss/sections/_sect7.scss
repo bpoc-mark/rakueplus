@@ -151,6 +151,10 @@
                             color: #FAFA00;
                             text-align: center;
 
+                            @include is-max(375px) {
+                                @include font-line(16, 30);
+                            }
+
                         }
 
                     }
