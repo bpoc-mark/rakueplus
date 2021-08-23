@@ -55,7 +55,8 @@
             <div class="l-wrap">
                 <div class="head_cont">
                     <div class="head_cont_1">
-                        <p class="p-t-75">RAKUE + for seles company service</p>
+                        <p>窓って簡単に変えられる。<br>
+                            他社にはできない「窓」の<br class="br_sp">提案でしっかり差別化</p>
                         <img src="<?php echo get_template_directory_uri();?>/release/image/header/head_cont_btm.png" alt="">
                     </div>
                     <div class="head_cont_2">
@@ -64,13 +65,19 @@
                         <p>
                             <span>で導入もスムーズ</span>
                         </p>
-                    </div>
+                    </div> 
                 </div>
                 <div class="head_desc">
-                    <p>説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。</p>
+                    <p>リフォーム業界のnextブルーオーシャンはこれで決まり！<br>
+                        同業他社が手をつけずらい「窓交換」の提案で売り上げも利益率もアップ！<br>
+                        業界初!? の手厚い導入支援付きで、更なる安心をプラスします。<br>
+                        他社より高い見積もりを提出しながら、受注できるメソッドとは!?</p>
+                    <img class="head_txt_img_1_pc" src="<?php echo get_template_directory_uri();?>/release/image/header/head_txt_img_1.png" alt="営業サポート">
                 </div>
                 <img class="rakue_img" src="<?php echo get_template_directory_uri();?>/release/image/header/rakue_image.png" alt="">
                 <img class="rakue_chair" src="<?php echo get_template_directory_uri();?>/release/image/header/rakue_chair.png" alt="">
+                <img class="head_txt_img_2" src="<?php echo get_template_directory_uri();?>/release/image/header/head_txt_img_2.png" alt="工務店リフォーム会社向け">
+                <img class="head_txt_img_1_sp" src="<?php echo get_template_directory_uri();?>/release/image/header/head_txt_img_1_sp.png" alt="営業サポート">
             </div>
         </div>
     </div>
