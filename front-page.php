@@ -183,77 +183,158 @@
         <div class="l-wrap">
             <!-- heading -->
             <div class="heading">
-                <h3>RAKUE+の<br>提供価値</h3>
+                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/heading.png" alt="RAKUE + の選べる3つのプラン" class="pc">
+                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/heading_sp.png" alt="RAKUE + の選べる3つのプラン" class="sp">
             </div>
             <!-- row -->
             <div class="row">
                 <!-- column 1 -->
+                
                 <div class="col">
+
+                    <div class="yellow_line_sp"></div>
+
                     <div class="col_heading">
-                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_1.png" alt="RAKUE + 松 プラン">
+                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_1.png" alt="RAKUE + 50万円（税別）ミニマムプラン" class="pc">
+                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_1_sp.png" alt="RAKUE + 50万円（税別）ミニマムプラン" class="sp">
                     </div>
-
+                
                     <div class="body">
-                        <div>
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
-                            <p>営業マニュアルのお渡し</p>
+
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>導入研修<br>
+                            （発砲工法についての基礎研修、応用知識のインプット、機材の使用実演）</p>
                         </div>
-                        <div>
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
-                            <p>ロールプレイング</p>
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>営業マニュアルの提供</p>
                         </div>
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>販促物の提供</p>
+                        </div>
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>ロールプレイングによるプレゼン習得</p>
+                        </div>
+                        
                     </div>
 
-                    <p class="desc">説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。</p>
                 </div>
 
                 <!-- column 2 -->
                 <div class="col">
+
+                    <div class="yellow_line_sp"></div>
+
                     <div class="col_heading">
-                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_2.png" alt="RAKUE + 竹 プラン">
+                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_2.png" alt="RAKUE + 100万円（税別）エコノミープラン" class="pc">
+                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_2_sp.png" alt="RAKUE + 100万円（税別）エコノミープラン" class="sp">
                     </div>
 
                     <div class="body">
                         <div>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
-                            <p>営業マニュアルのお渡し</p>
+                            <p>トークマニュアルの提供</p>
                         </div>
                         <div>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
-                            <p>ロールプレイング</p>
+                            <p>プレゼン動画の提供</p>
                         </div>
                         <div>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
-                            <p>営業同行 1回</p>
+                            <p>実案件への営業同席2回付 <br>
+                            （オンライン含む）</p>
+                        </div>
+                        <div>
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                            <p>TEL＆チャットでの案件相談 <br>
+                                1か月無料</p>
                         </div>
                     </div>
 
-                    <p class="desc">説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。</p>
+                    <span class="line"></span>
+
+                    <div class="footer">
+
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>導入研修 <br>
+                            （発砲工法についての基礎研修、応用知識のインプット、機材の使用実演）</p>
+                        </div>
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>営業マニュアルの提供</p>
+                        </div>
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>販促物の提供</p>
+                        </div>
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>ロールプレイングによるプレゼン習得</p>
+                        </div>
+
+                    </div>
+
                 </div>
 
                 <!-- column 3 -->
                 <div class="col">
-                    <div class="col_heading">
-                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_3.png" alt="RAKUE + 梅 プラン">
-                    </div>
 
+                    <div class="yellow_line_sp"></div>
+
+                    <div class="col_heading">
+                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_3.png" alt="RAKUE + 200万円（税別）スタンダードプラン" class="pc">
+                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_3_sp.png" alt="RAKUE + 200万円（税別）スタンダードプラン" class="sp">
+                    </div>
 
                     <div class="body">
                         <div>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
-                            <p>営業マニュアルのお渡し</p>
+                            <p>トークマニュアルの提供</p>
                         </div>
                         <div>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
-                            <p>ロールプレイング</p>
+                            <p>プレゼン動画の提供</p>
                         </div>
                         <div>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
-                            <p>営業同行 5回</p>
+                            <p>実案件への営業同席<span>5回付</span><br>
+                                （オンライン含む）</p>
+                        </div>
+                        <div>
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                            <p>TEL＆チャットでの案件相談 <br>
+                            <span>3か月無料</span></p>
                         </div>
                     </div>
 
-                    <p class="desc">説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。説明文が入る。説明文が入る。</p>
+                    <span class="line"></span>
+
+                    <div class="footer">
+
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>導入研修 <br>
+                            （発砲工法についての基礎研修、応用知識のインプット、機材の使用実演）</p>
+                        </div>
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>営業マニュアルの提供</p>
+                        </div>
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>販促物の提供</p>
+                        </div>
+                        <div class="sm_text">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/box.png" alt="box">
+                            <p>ロールプレイングによるプレゼン習得</p>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
 
