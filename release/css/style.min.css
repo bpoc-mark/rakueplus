@@ -591,7 +591,7 @@ template{display:none}
 .sect_6__wrapper .l-wrap .row .col .body div p{font-size:1.375rem;font-weight:500;font-family:Noto Sans CJK JP;color:#fff;letter-spacing:0}
 .sect_6__wrapper .l-wrap .row .col .body div p span{color:#fafa00}
 .sect_6__wrapper .l-wrap .row .col .body .sm_text{-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline}
-.sect_6__wrapper .l-wrap .row .col .body .sm_text p{font-size:1.125rem;font-weight:300;font-family:Noto Sans CJK JP;color:#fff;line-height:29.7px;letter-spacing:0}
+.sect_6__wrapper .l-wrap .row .col .body .sm_text p{font-size:1.125rem;font-weight:300;font-family:Noto Sans CJK JP;color:#fff;line-height:29.7px;letter-spacing:-1px}
 .sect_6__wrapper .l-wrap .row .col .body .sm_text p br{display:block}
 .sect_6__wrapper .l-wrap .row .col .line{border:2px dotted white;display:block}
 .sect_6__wrapper .l-wrap .row .col .footer{padding-top:30px}
