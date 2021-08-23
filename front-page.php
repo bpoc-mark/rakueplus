@@ -55,7 +55,7 @@
 </section>
 <section class="sect_2">
     <div class="sect_2__wrapper">
-        <div class="l-wrap">
+    <div class="l-wrap">
             <div class="c-contact">
                 <div class="img_1">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/arrow_right.png" alt="Arrow Right">
@@ -80,20 +80,37 @@
 <section class="sect_3">
     <div class="l-wrap">
         <div class="sect_3__heading-title title-primary">
-            <p>ラクエ導入の心配から解放！<br>
-                キャッチコピーが入ります。<br class="br-sp">キャッチコピーが入ります。</p>
+            <div class="sect_3__cont-f">
+                <img class="rakue_img"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/rakue_img.png" alt="">
+                <p>導入の心配から解放!</p>
+            </div>
+            <!-- キャッチコピーが入ります。<br class="br-sp">キャッチコピーが入ります。</p> -->
         </div>
 
         <div class="sect_3__boxes">
             <div class="box">
                 <p>
-                    RAKUE＋ おススメ①
+                    <img class="btm_line"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/col_head_1.png" alt="">
                 </p>
+                <img class="btm_line"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/btm_title_img.png" alt="">
+                <p>RAKUEという<br class="sp-br">商品自体の<br class="pc-br"><br class="sp-br">
+                    良さで勝負できる</p>
+                <p>『省エネ効果No1アイテム』それは「窓」です。あまり知られていませんがその効果は絶大！<br>
+                    お家のお悩み相談で多い、ジメジメ(結露)、ヒエヒエ(冷放射)、ジリジリ(輻射熱)を解決しましょう。</p>
             </div>
             <div class="box">
                 <p>
-                    RAKUE＋ おススメ②
+                    <img class="btm_line"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/col_head_2.png" alt="">
                 </p>
+                <img class="btm_line"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/btm_title_img.png" alt="">
+                <p>コンサル<br class="sp-br">パッケージ付きの<br class="pc-br"><br class="sp-br">
+                    安心感</p>
+                <p>導入したけどうまく使えない、といった失敗事例を経験したからこそできたサービスです。商品の良さを熟知した我々のサポートを是非お役立てください。今まで提案していなかったことで他社と差別化できます！</p>
             </div>
         </div>
     </div>
