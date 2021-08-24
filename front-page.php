@@ -120,36 +120,57 @@
         <div class="bg_overlay">
         </div>
         <div class="sect_4__heading-title title-primary">
+            <p>他社より高い見積もりを提出しながら、受注できるメソッドとは!?</p>
             <p><span>こんなお悩みありませんか?</span></p>
         </div>
         <div class="sect_4__cont_flex">
             <div class="cont_desc mt-44">
-                <div class="desc mb-40">
-                    <img class="icon" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
-                    <p class="txt_list">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                <div class="desc mb-30">
+                    <img class="icon"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
+                    <p class="txt_list">他社と相見積もりの金額勝負が多く、競り負けてしまう</p>
                 </div>
-                <div class="desc mb-40">
-                    <img class="icon" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
-                    <p class="txt_list">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                <div class="desc mb-30">
+                    <img class="icon"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
+                    <p class="txt_list">窓交換の効果は何となく理解しているが、手が出せていない</p>
                 </div>
-                <div class="desc mb-40">
-                    <img class="icon" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
-                    <p class="txt_list">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                <div class="desc mb-30">
+                    <img class="icon"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
+                    <p class="txt_list">お客様からの希望箇所の工事依頼しか提案、施工できていない</p>
                 </div>
                 <div class="desc">
-                    <img class="icon" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
-                    <p class="txt_list">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                    <img class="icon"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
+                    <p class="txt_list">そもそも窓交換に対する<br class="br_sp-1">経験値とノウハウがない</p>
+                </div>
+                <div class="cont_person sp">
+                    <img class="mssg"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/per_mssg.png" alt="">
                 </div>
                 <div class="txt_cont mt-65">
-                    <p class="txt">説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。</p>
-                    <p class="txt">説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。</p>
-                    <p class="txt">説明文が入る。説明文が入る。説明文が入る。説明文が入る。説明文が入る。 説明文が入る。</p>
+                    <div class="">
+                        <p>その悩み、<br class="br_sp"><img class="rakue_img"
+                                src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/rakue_img.png"
+                                alt="">
+                            が解決します！</p>
+                    </div>
+                    <img class="circle_icon pc"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/circle_icon_txt.png"
+                        alt="">
+                    <p class="txt">
+                        リフォームを手掛ける導入会社、施工店の皆様は「手間がかかる」「施工が難しそう」「ニーズの掘り起こしができない」など窓交換に対するイメージはネガティブなものが多いです。提案側がこう思っているくらいですから、お客様からの熱烈なリクエストがない限り、水廻り交換等や外壁塗装等のリフォームの提案のみで受注に結び付けようとしています。そもそも見積もり時点で窓交換を提案する会社は皆無です。
+                        RAKUE+は提案側の意識を変革できる商品です。皆様が持つネガティブなイメージを払拭し、自社の見積もりの切り札になる提案ができ、他社と比較しても負けない勝負ができたとしたらいかがですか？RAKUE+では、戦う土俵を変えるという新たな武器を提供致します！
+                    </p>
                 </div>
             </div>
 
-            <div class="cont_person">
-                <img class="person" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/person_1.png" alt="">
-                <img class="mssg" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/person_message.png" alt="">
+            <div class="cont_person pc">
+                <img class="person" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/person_1.png"
+                    alt="">
+                <img class="mssg"
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/person_message.png" alt="">
             </div>
         </div>
     </div>
@@ -179,7 +200,7 @@
     </div>
 </section>
 <section class="sect_6">
-    <div class="sect_6__wrapper">
+<div class="sect_6__wrapper">
         <div class="l-wrap">
             <!-- heading -->
             <div class="heading">
