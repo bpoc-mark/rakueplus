@@ -43,9 +43,9 @@
                 </div>
 
                 <div class="content_2__col-2">
-                    <p class="ttl_min">業界初！？ の手厚い導入支援付きで、<br>更なる安心をプラスします！</p>
+                    <p class="ttl_min">業界初！？ の手厚い<br class="br-is-max">導入支援付きで、<br class="br-is-sp">更なる安心をプラスします！</p>
                     <div class="title_cont">
-                        <span class="title"><span>RAKUE＋</span><br><span>（ラクエプラス）</span></span>
+                        <span class="title"><span><img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/rakue_txt.png" alt=""></span><br><span>（ラクエプラス）</span></span>
                     </div>
                     <p class="desc">『みんなの暮らしを窓からラクに』をテーマに全国にサービスを提供しているRAKUE。RAKUE+（ラクエプラス）とは、RAKUEの窓交換工事のシステム化を実現し、導入支援サービスをセットでご提供するという業界初のコンサルパッケージ付き商品です。導入会社、施工店、そしてお客様にとっても面倒だった窓交換工事がRAKUE+なら、導入後の障壁を最大限まで下げることができます。これを機に他社と差別化を可能にする武器を身につけてください。</p>
                 </div>
@@ -200,7 +200,7 @@
     </div>
 </section>
 <section class="sect_6">
-<div class="sect_6__wrapper">
+    <div class="sect_6__wrapper">
         <div class="l-wrap">
             <!-- heading -->
             <div class="heading">
@@ -398,7 +398,7 @@
                 <div class="col">
                     <div class="col_heading">
                         <p>うまく提案できるか、 <br>
-                        ニーズを掘り起こせるかが心配</p>
+                        ニーズ<br>を掘り起こせるかが心配</p>
                         <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/rectangle.png" alt="rectangle">
                     </div>
                     <p class="col_body">提案に関して、導入時のサポートで習得頂けますし、パックによっては同席サポートという手厚いフォローをご活用ください！ニーズの掘り起こしに関してもチラシやLPの提供など万全の準備ができております！</p>

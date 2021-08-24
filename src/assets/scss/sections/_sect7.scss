@@ -127,6 +127,32 @@
                             }
                         }
 
+                        &:nth-of-type(4){
+                            br{
+                                @include is-max(350px) {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+
+                    &:nth-of-type(3){
+                        br{
+
+                            &:nth-of-type(1){
+                                @include is-max(350px) {
+                                    display: none;
+                                }
+                            }
+
+                            &:nth-of-type(2){
+                                display: none;
+                                @include is-max(350px) {
+                                    display: block;
+                                }
+                            }
+                            
+                        }
                     }
 
                     .col_heading {

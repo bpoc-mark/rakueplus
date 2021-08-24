@@ -132,7 +132,7 @@
 			}
 
 			&__col-1 {
-				width: 36.7%;
+				width: 40%;
 
 				img {
 					width: 100%;
@@ -165,19 +165,28 @@
 						text-align: center;
 					}
 
-					br {
+					.br-is-sp {
 						display: none;
 
 						@include is-sp {
 							display: block;
 						}
 					}
+					.br-is-max {
+						display: none;
+
+						@include is-max(405px) {
+							display: block;
+						}
+					}
 				}
 				.title_cont {
 					position: relative;
+					margin: 20px auto 0;
 
 					@include is-sp {
-						margin: 0 auto;
+						margin: 30px auto 0;
+						text-align: center;
 					}
 
 					.title {
@@ -187,42 +196,57 @@
 						background: linear-gradient(
 							0deg,
 							#fafa00 0%,
-							#fafa00 30%,
-							rgba(255, 255, 255, 0) 30%
+							#fafa00 40%,
+							rgba(255, 255, 255, 0) 20%
 						);
 						@include font-line(30);
 
+						@include is-sp{
+							line-height: 30px;
+						}
+
 						span {
+							
 							&:nth-of-type(1) {
-								@include font-line(44);
+								img{
+									width: 245px;
+									margin-top: -10px;
+									margin-left: 10px;
+									@include is-sp{
+										margin-left: 0;
+									}
+								}
 							}
 							&:nth-of-type(2) {
-								@include font-line(30);
-								margin-left: -15px;
+								@include font-line(18);
+								margin-left: 5px;
+								@include is-sp{
+									margin-left: 0;
+								}
 							}
 						}
 
-						span {
-							font-family: noto-sans-cjk-jp, sans-serif;
-							@include font-line(44);
-							font-weight: 700;
+						// span {
+						// 	font-family: noto-sans-cjk-jp, sans-serif;
+						// 	@include font-line(44);
+						// 	font-weight: 700;
 
-							@include is-sp {
-								@include font-line(44);
-							}
+						// 	@include is-sp {
+						// 		@include font-line(44);
+						// 	}
 
-							@include is-max(425px) {
-								@include font-line(39);
-							}
+						// 	@include is-max(425px) {
+						// 		@include font-line(39);
+						// 	}
 
-							@include is-max(375px) {
-								@include font-line(44);
-							}
-						}
+						// 	@include is-max(375px) {
+						// 		@include font-line(44);
+						// 	}
+						// }
 						br {
 							display: none;
 
-							@include is-max(480px) {
+							@include is-max(450px) {
 								display: block;
 							}
 						}
