@@ -50,7 +50,7 @@
 <body <?php body_class(); ?>>
     
 <main>
-    <div class="page__header">
+    <div class="page__header bg_grey">
         <div class="header_container">
             <div class="l-wrap">
                 <div class="head_cont">
@@ -61,7 +61,7 @@
                     </div>
                     <div class="head_cont_2">
                         <!-- <p>ラクエプラス</p> -->
-                        <img src="<?php echo get_template_directory_uri();?>/release/image/header/rakue_hero.png" alt="ラクエプラス RAKUE+">
+                        <img src="<?php echo get_template_directory_uri();?>/release/image/header/rakue_hero.svg" alt="ラクエプラス RAKUE+">
                         <p>
                             <span>で導入もスムーズ</span>
                         </p>
@@ -69,15 +69,15 @@
                 </div>
                 <div class="head_desc">
                     <p>リフォーム業界のnextブルーオーシャンはこれで決まり！<br>
-                        同業他社が手をつけずらい「窓交換」の提案で売り上げも利益率もアップ！<br>
+                        手をつけづらい「窓交換」の提案で売り上げも利益率もアップ！<br>
                         業界初!? の手厚い導入支援付きで、更なる安心をプラスします。<br>
                         他社より高い見積もりを提出しながら、受注できるメソッドとは!?</p>
-                    <img class="head_txt_img_1_pc" src="<?php echo get_template_directory_uri();?>/release/image/header/head_txt_img_1.png" alt="営業サポート">
+                    <img class="head_txt_img_1_pc" src="<?php echo get_template_directory_uri();?>/release/image/header/head_txt_img_1.svg" alt="営業サポート">
                 </div>
                 <img class="rakue_img" src="<?php echo get_template_directory_uri();?>/release/image/header/rakue_image.png" alt="">
                 <img class="rakue_chair" src="<?php echo get_template_directory_uri();?>/release/image/header/rakue_chair.png" alt="">
-                <img class="head_txt_img_2" src="<?php echo get_template_directory_uri();?>/release/image/header/head_txt_img_2.png" alt="工務店リフォーム会社向け">
-                <img class="head_txt_img_1_sp" src="<?php echo get_template_directory_uri();?>/release/image/header/head_txt_img_1_sp.png" alt="営業サポート">
+                <img class="head_txt_img_2" src="<?php echo get_template_directory_uri();?>/release/image/header/head_txt_img_2.svg" alt="工務店リフォーム会社向け">
+                <img class="head_txt_img_1_sp" src="<?php echo get_template_directory_uri();?>/release/image/header/head_txt_img_1_sp.svg" alt="営業サポート">
             </div>
         </div>
     </div>

@@ -1,11 +1,31 @@
 .sect_4 {
 	position: relative;
-	padding-top: 70px;
-	padding-bottom: 75px;
+	&::after{
+		background-color: #e9eeee;
+		content: "";
+		position: absolute;
+		z-index: -2;
+		height: 100%;
+		width: 25%;
+		top: 0;
+		right: 0;
 
-	@include is-sp {
-		padding-top: 55px;
-		padding-bottom: 70px;
+		@include is-sp {
+			display: none;
+		}
+	}
+
+	&__wrapper{
+		max-width: 1400px;
+		position: relative;
+		margin: 0 auto;
+		padding-top: 70px;
+		padding-bottom: 75px;
+
+		@include is-sp {
+			padding-top: 55px;
+			padding-bottom: 70px;
+		}
 	}
 
 	.l-wrap {
@@ -19,7 +39,7 @@
 		background-color: #e9eeee;
 		content: "";
 		position: absolute;
-		z-index: 0;
+		z-index: -1;
 		height: 100%;
 		width: 330px;
 		top: 0;
@@ -50,6 +70,13 @@
 
 		span {
 			background: linear-gradient(transparent 68%, #ff0 0%);
+			@include is-max(470px){
+				font-size: 6.667vw;
+			}
+
+			@include is-max(360px){
+				font-size: 6.3vw;
+			}
 		}
 
 		// span:before {
@@ -72,7 +99,7 @@
 	&__cont_flex {
 		display: flex;
 		align-items: center;
-		// justify-content: space-between;
+		justify-content: space-between;
 		// margin-top: -105px;
 		// position: relative;
 
@@ -175,7 +202,8 @@
 		.cont_person {
 			// position: relative;
 			// margin-left: 76px;
-			margin-left: 20px;
+			// margin-left: 20px;
+			width: 27%;
 			position: relative;
 
 			@include is-pc {
@@ -183,6 +211,7 @@
 			}
 
 			@include is-sp {
+				width: unset;
 				margin-top: 45px;
 				margin-left: 0;
 				// width: 100%;
@@ -209,6 +238,7 @@
 
 				@include is-max(1090px){
 					left: 0;
+					width: 60%;
 				}
 
 				@include is-sp {
@@ -263,7 +293,7 @@
 
 		.txt {
 			@include font-line(18);
-			font-weight: 400;
+			font-weight: 500;
 			text-align: left;
 			font-family: noto-sans-cjk-jp, sans-serif;
 		}
@@ -292,7 +322,7 @@
 				position: absolute;
 				width: 211px;
 				height: auto;
-				right: -13px;
+				right: -10px;
 				top: -48px;
 
 				@include is-max(1090px){
@@ -319,6 +349,16 @@
 				@include is-sp {
 					width: 100%;
 				}
+
+				br{
+					&:nth-of-type(2){
+						display: none;
+
+						@include is-max(480px){
+							display: block;
+						}
+					}
+				}
 			}
 
 			// @include is-sp {
@@ -327,7 +367,7 @@
 		}
 
 		.cont_desc {
-			width: calc(100% - 315px);
+			width: 72%;
 
 			@include is-sp {
 				width: 100%;

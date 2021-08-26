@@ -1,6 +1,6 @@
     </div>
         <div class="page__footer">
-            <p>© RAKUE-reform Produced by <a href="https://jeengross.jp/" target="_blank">jeegross</a></p>
+            <p>© RAKUE-reform Produced by <a href="https://jeengross.jp/" target="_blank">jeengross</a></p>
         </div>
     </main>
 

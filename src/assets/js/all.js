@@ -1,33 +1,10 @@
-// $('.cont_slider').slick({
-//       infinite: true,
-//       slidesToShow: 2,
-//       slidesToScroll: 3,
-//       settings: "unslick",
-//       responsive: [
-//             {
-// 				breakpoint: 9999,
-// 				settings: "unslick"
-//             },
-//             {
-// 				breakpoint: 750,
-// 				settings: {
-// 					slidesToShow: 1,
-// 					slidesToScroll: 1
-// 				}
-//             }
-//             // You can unslick at a given breakpoint now by adding:
-//             // settings: "unslick"
-//             // instead of a settings object
-//       ]
-// });
-
-const settings = {
-	// default settings
+$('.cont_slider').slick({
+	slidesToShow: 5,
+	slidesToScroll: 1,
+	infinite: true,
+	autoplay: true,
+  	autoplaySpeed: 2000,
 	responsive: [
-		{
-			breakpoint: 9999,
-			settings: "unslick"
-		},
 		{
 			breakpoint: 750,
 			settings: {
@@ -36,17 +13,27 @@ const settings = {
 				infinite: true,
 			}
 		}
-  	]
-};
-
-const sl =  $('.slider').slick(settings);
-      
-$(window).on('resize', function() {
-	if( $(window).width() < 751 &&  !sl.hasClass('slick-initialized')) {
-		$('.cont_slider').slick(settings);
-	}
+		// You can unslick at a given breakpoint now by adding:
+		// settings: "unslick"
+		// instead of a settings object
+	]
 });
 
-if( $(window).width() < 751 &&  !sl.hasClass('slick-initialized')) {
-	$('.cont_slider').slick(settings);
-}
+
+$(function () {
+	$('a[href*=#]:not([href=#])').click(function () {
+		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			console.log(target);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+	
+			if (target.length) {
+			$('html,body').animate({
+				scrollTop: target.offset().top(),
+				behavior: 'smooth'
+			}, 1000);
+			return false;
+			}
+		}
+	});
+});

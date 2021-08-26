@@ -24,7 +24,7 @@
       }
     }
 
-    @include is-max($body-min-width){
+    @include is-max(1090px){
       width: 100%;
     }
   }

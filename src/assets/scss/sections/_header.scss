@@ -1,35 +1,61 @@
 .page{
+    position: relative;
+    &.bg_grey{
+        
+    }
+    
     &__header{
         background-color: #fff;
         height: 680px;
         position: relative;
         overflow-x: hidden;
 
-        @include is-sp{
-            height: auto;
-            padding-bottom: 50px;
-        }
-
         &::before{
             content: "";
             background-color: #e9eeee;
             display: block;
-            width: 330px;
+            width: 25%;
             height: 100%;
             position: absolute;
             top: 0;
             left: 0;
             z-index: 0;
-
+    
             @include is-sp{
                 width: 100%;
                 height: 390px;
+                display: none;
             }
         }
 
+        @include is-sp{
+            height: auto;
+            padding-bottom: 50px;
+        }
         .header_container{
             position: relative;
             z-index: 1;
+            max-width: 1400px;
+            margin: 0 auto;
+            height: 100%;
+
+            &::before{
+                content: "";
+                background-color: #e9eeee;
+                display: block;
+                width: 330px;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+    
+                @include is-sp{
+                    width: 100%;
+                    height: 390px;
+                }
+            }
+
             .l-wrap{
                 position: relative;
                 .head_cont{
@@ -71,6 +97,9 @@
                         }
                     }
                     .head_cont_2{
+                        img{
+                            width: 360px;
+                        }
                         p{
                             padding-top: 10px;
                             span{
@@ -107,12 +136,12 @@
                     }
 
                     @include is-sp{
-                        width: 56%;
+                        width: 59%;
                         margin: 60px auto 0 0;
                     }
 
                     @include is-max(375px){
-                        width: 56%;
+                        width: 60%;
                         margin: 80px auto 0 0;
                     }
                 
@@ -121,17 +150,21 @@
                         font-weight: 400;
                         @include font-line(18, 36);
                         color: #006795;
+
+                        @include is-max(480px){
+                            font-size: 3.750vw;
+                        }
                     }
 
                     .head_txt_img_1_pc{
                         width: 140px;
                         height: 140px;
                         position: absolute;
-                        right: 0;
-                        top: -210px;
+                        right: 45px;
+                        top: -150px;
 
                         @include is-max(1000px){
-                            right: -30px;
+                            right: -45px;
                         }
                         @include is-sp{
                             display: none;
@@ -139,8 +172,8 @@
                     }
                 }
                 .rakue_img{
-                    width: 370px;
-                    height: 552px;
+                    width: 404px;
+                    height: 604px;
                     position: absolute;
                     top: 0;
                     right: -90px;
@@ -154,7 +187,7 @@
                     }
 
                     @include is-max(480px){
-                        width: 43.75%;
+                        width: 40%;
                         height: auto;
                     }
                 }
@@ -203,14 +236,17 @@
                     @include is-max(420px){
                         width: 25%;
                         height: auto;
-                        top: 100px;
+                        top: 20px;
                         left: 10px;
                     }
-                    @include is-max(375px){
+                    @include is-max(390px){
                         width: 25%;
                         height: auto;
-                        top: 115px;
+                        top: 110px;
                         left: 10px;
+                    }
+                    @include is-max(330px){
+                        top: 120px;
                     }
                 }
 
@@ -227,22 +263,21 @@
                     }
 
                     @include is-max(500px){
-                        right: 45px;
-                        top: 650px;
+                        right: 50px;
+                        top: 645px;
                     }
 
                     @include is-max(480px){
-                        width: 30%;
+                        width: 27%;
                         height: auto;
+                        right: 10%;
+                        top: 80%;
                     }
 
                     @include is-max(375px){
-                        top: 600px;
+                        top: 82%;
                     }
 
-                    @include is-max(375px){
-                        top: 600px;
-                    }
                 }
             }
         }

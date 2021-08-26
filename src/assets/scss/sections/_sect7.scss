@@ -15,7 +15,7 @@
             position: relative;
             // padding-right: 30px;
 
-            @include is-max(1140px) {
+            @include is-max(1180px) {
                 width: 100%;
             }
 
@@ -70,6 +70,33 @@
                     display: none;
                 }
               
+            }
+
+            .girl_sp_cont{
+                display: none;
+                text-align: center;
+                position: relative;
+                @include is-max(900px){
+                    display: block;
+                }
+                .girl_sp{
+                    width: 170px;
+
+                    @include is-max(425px){
+                        width: 35.42%;
+                    }
+                }
+                .girl_sp_txt{
+                    width: 144px;
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-200px, -25px);
+                    @include is-max(425px){
+                        width: 30%;
+                        transform: translate(-140%, -25px);
+                    }
+                }
             }
 
             // for sp

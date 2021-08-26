@@ -13,6 +13,7 @@ $color-danger: #dc3545;
     margin: 0;
     // user for push the last div (footer) bottom
     // height: 100%;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -35,7 +36,7 @@ body {
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-
+    scroll-behavior: smooth;
     // @include is-sp {}
 
     // @include is-tabpc {

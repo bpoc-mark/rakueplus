@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section class="sect_1">
     <div class="sect_1__wrapper">
-        <div class="images cont_slider">
+        <div class="cont_slider">
             <div class="img">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/img_1.png" alt="">
             </div>
@@ -17,13 +17,16 @@
             <div class="img">
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/img_5.png" alt="">
             </div>
+            <div class="img">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/img_3.png" alt="">
+            </div>
         </div>
 
         <div class="content_1">
             <div class="l-wrap">
                 <div class="content_1__col-1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/bubble.png" alt="">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/bubble_sp.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/bubble.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/bubble_sp.svg" alt="">
                 </div>
 
                 <div class="content_1__col-2">
@@ -45,7 +48,7 @@
                 <div class="content_2__col-2">
                     <p class="ttl_min">業界初！？ の手厚い<br class="br-is-max">導入支援付きで、<br class="br-is-sp">更なる安心をプラスします！</p>
                     <div class="title_cont">
-                        <span class="title"><span><img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/rakue_txt.png" alt=""></span><br><span>（ラクエプラス）</span></span>
+                        <span class="title"><span><img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_1/rakue_txt.svg" alt=""></span><br><span>（ラクエプラス）</span></span>
                     </div>
                     <p class="desc">『みんなの暮らしを窓からラクに』をテーマに全国にサービスを提供しているRAKUE。RAKUE+（ラクエプラス）とは、RAKUEの窓交換工事のシステム化を実現し、導入支援サービスをセットでご提供するという業界初のコンサルパッケージ付き商品です。導入会社、施工店、そしてお客様にとっても面倒だった窓交換工事がRAKUE+なら、導入後の障壁を最大限まで下げることができます。これを機に他社と差別化を可能にする武器を身につけてください。</p>
                 </div>
@@ -56,24 +59,24 @@
 <section class="sect_2">
     <div class="sect_2__wrapper">
     <div class="l-wrap">
-            <div class="c-contact">
+            <a class="c-contact" href="#sect_8">
                 <div class="img_1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/arrow_right.png" alt="Arrow Right">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/arrow_right.svg" alt="Arrow Right">
                 </div>
                 <div class="img_2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/rakue.png" alt="Rakue">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/rakue.svg" alt="Rakue">
                 </div>
                 <!-- <div class="img_3">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/plus_sign.png" alt="Plus Sign">
                     </div> -->
                 <div class="img_4">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/txt.png" alt="Text">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/txt.svg" alt="Text">
                 </div>
                 <div class="img_5">
-                    <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/contact_woman.png" alt="Woman">
-                    <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/contact_woman_sp.png" alt="Woman">
+                    <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/contact_woman.svg" alt="Woman">
+                    <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/contact_woman_sp.svg" alt="Woman">
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </section>
@@ -82,7 +85,7 @@
         <div class="sect_3__heading-title title-primary">
             <div class="sect_3__cont-f">
                 <img class="rakue_img"
-                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/rakue_img.png" alt="">
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/rakue_img.svg" alt="">
                 <p>導入の心配から解放!</p>
             </div>
             <!-- キャッチコピーが入ります。<br class="br-sp">キャッチコピーが入ります。</p> -->
@@ -92,7 +95,7 @@
             <div class="box">
                 <p>
                     <img class="btm_line"
-                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/col_head_1.png" alt="">
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/col_head_1.svg" alt="">
                 </p>
                 <img class="btm_line"
                     src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/btm_title_img.png" alt="">
@@ -104,7 +107,7 @@
             <div class="box">
                 <p>
                     <img class="btm_line"
-                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/col_head_2.png" alt="">
+                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/col_head_2.svg" alt="">
                 </p>
                 <img class="btm_line"
                     src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/btm_title_img.png" alt="">
@@ -116,61 +119,63 @@
     </div>
 </section>
 <section class="sect_4">
-    <div class="l-wrap">
-        <div class="bg_overlay">
-        </div>
-        <div class="sect_4__heading-title title-primary">
-            <p>他社より高い見積もりを提出しながら、受注できるメソッドとは!?</p>
-            <p><span>こんなお悩みありませんか?</span></p>
-        </div>
-        <div class="sect_4__cont_flex">
-            <div class="cont_desc mt-44">
-                <div class="desc mb-30">
-                    <img class="icon"
-                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
-                    <p class="txt_list">他社と相見積もりの金額勝負が多く、競り負けてしまう</p>
-                </div>
-                <div class="desc mb-30">
-                    <img class="icon"
-                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
-                    <p class="txt_list">窓交換の効果は何となく理解しているが、手が出せていない</p>
-                </div>
-                <div class="desc mb-30">
-                    <img class="icon"
-                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
-                    <p class="txt_list">お客様からの希望箇所の工事依頼しか提案、施工できていない</p>
-                </div>
-                <div class="desc">
-                    <img class="icon"
-                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.png" alt="">
-                    <p class="txt_list">そもそも窓交換に対する<br class="br_sp-1">経験値とノウハウがない</p>
-                </div>
-                <div class="cont_person sp">
-                    <img class="mssg"
-                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/per_mssg.png" alt="">
-                </div>
-                <div class="txt_cont mt-65">
-                    <div class="">
-                        <p>その悩み、<br class="br_sp"><img class="rakue_img"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/rakue_img.png"
-                                alt="">
-                            が解決します！</p>
-                    </div>
-                    <img class="circle_icon pc"
-                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/circle_icon_txt.png"
-                        alt="">
-                    <p class="txt">
-                        リフォームを手掛ける導入会社、施工店の皆様は「手間がかかる」「施工が難しそう」「ニーズの掘り起こしができない」など窓交換に対するイメージはネガティブなものが多いです。提案側がこう思っているくらいですから、お客様からの熱烈なリクエストがない限り、水廻り交換等や外壁塗装等のリフォームの提案のみで受注に結び付けようとしています。そもそも見積もり時点で窓交換を提案する会社は皆無です。
-                        RAKUE+は提案側の意識を変革できる商品です。皆様が持つネガティブなイメージを払拭し、自社の見積もりの切り札になる提案ができ、他社と比較しても負けない勝負ができたとしたらいかがですか？RAKUE+では、戦う土俵を変えるという新たな武器を提供致します！
-                    </p>
-                </div>
+    <div class="sect_4__wrapper">
+        <div class="l-wrap">
+            <div class="bg_overlay">
             </div>
+            <div class="sect_4__heading-title title-primary">
+                <p>他社より高い見積もりを提出しながら、受注できるメソッドとは!?</p>
+                <p><span>こんなお悩みありませんか?</span></p>
+            </div>
+            <div class="sect_4__cont_flex">
+                <div class="cont_desc mt-44">
+                    <div class="desc mb-30">
+                        <img class="icon"
+                            src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.svg" alt="">
+                        <p class="txt_list">他社と相見積もりの金額勝負が多く、競り負けてしまう</p>
+                    </div>
+                    <div class="desc mb-30">
+                        <img class="icon"
+                            src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.svg" alt="">
+                        <p class="txt_list">窓交換の効果は何となく理解しているが、手が出せていない</p>
+                    </div>
+                    <div class="desc mb-30">
+                        <img class="icon"
+                            src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.svg" alt="">
+                        <p class="txt_list">お客様からの希望箇所の工事依頼しか提案、施工できていない</p>
+                    </div>
+                    <div class="desc">
+                        <img class="icon"
+                            src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/check_icon.svg" alt="">
+                        <p class="txt_list">そもそも窓交換に対する<br class="br_sp-1">経験値とノウハウがない</p>
+                    </div>
+                    <div class="cont_person sp">
+                        <img class="mssg"
+                            src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/per_mssg.svg" alt="">
+                    </div>
+                    <div class="txt_cont mt-65">
+                        <div class="">
+                            <p>その悩み、<br class="br_sp"><img class="rakue_img"
+                                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/rakue_img.svg"
+                                    alt="">
+                                が<br>解決します！</p>
+                        </div>
+                        <img class="circle_icon pc"
+                            src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/circle_icon_txt.svg"
+                            alt="">
+                        <p class="txt">
+                            リフォームを手掛ける導入会社、施工店の皆様は「手間がかかる」「施工が難しそう」「ニーズの掘り起こしができない」など窓交換に対するイメージはネガティブなものが多いです。提案側がこう思っているくらいですから、お客様からの熱烈なリクエストがない限り、水廻り交換等や外壁塗装等のリフォームの提案のみで受注に結び付けようとしています。そもそも見積もり時点で窓交換を提案する会社は皆無です。<br>
+                            RAKUE+は提案側の意識を変革できる商品です。皆様が持つネガティブなイメージを払拭し、自社の見積もりの切り札になる提案ができ、他社と比較しても負けない勝負ができたとしたらいかがですか？RAKUE+では、戦う土俵を変えるという新たな武器を提供致します！
+                        </p>
+                    </div>
+                </div>
 
-            <div class="cont_person pc">
-                <img class="person" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/person_1.png"
-                    alt="">
-                <img class="mssg"
-                    src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/person_message.png" alt="">
+                <div class="cont_person pc">
+                    <img class="person" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/person_1.png"
+                        alt="">
+                    <img class="mssg"
+                        src="<?php echo get_template_directory_uri(); ?>/release/image/sect_4/per_mssg_pc.svg" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -178,24 +183,24 @@
 <section class="sect_5">
     <div class="sect_5__wrapper">
         <div class="l-wrap">
-            <div class="c-contact">
+            <a class="c-contact" href="#sect_8">
                 <div class="img_1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/arrow_right.png" alt="Arrow Right">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/arrow_right.svg" alt="Arrow Right">
                 </div>
                 <div class="img_2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/rakue.png" alt="Rakue">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/rakue.svg" alt="Rakue">
                 </div>
                 <!-- <div class="img_3">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/plus_sign.png" alt="Plus Sign">
                     </div> -->
                 <div class="img_4">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/txt.png" alt="Text">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/txt.svg" alt="Text">
                 </div>
                 <div class="img_5">
-                    <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/contact_woman.png" alt="Woman">
-                    <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/contact_woman_sp.png" alt="Woman">
+                    <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/contact_woman.svg" alt="Woman">
+                    <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_5/contact_woman_sp.svg" alt="Woman">
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </section>
@@ -205,7 +210,7 @@
             <!-- heading -->
             <div class="heading">
                 <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/heading.png" alt="RAKUE + の選べる3つのプラン" class="pc">
-                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/heading_sp.png" alt="RAKUE + の選べる3つのプラン" class="sp">
+                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/heading_sp.svg" alt="RAKUE + の選べる3つのプラン" class="sp">
             </div>
             <!-- row -->
             <div class="row">
@@ -217,7 +222,7 @@
 
                     <div class="col_heading">
                         <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_1.png" alt="RAKUE + 50万円（税別）ミニマムプラン" class="pc">
-                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_1_sp.png" alt="RAKUE + 50万円（税別）ミニマムプラン" class="sp">
+                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_1_sp.svg" alt="RAKUE + 50万円（税別）ミニマムプラン" class="sp">
                     </div>
                 
                     <div class="body">
@@ -251,25 +256,25 @@
 
                     <div class="col_heading">
                         <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_2.png" alt="RAKUE + 100万円（税別）エコノミープラン" class="pc">
-                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_2_sp.png" alt="RAKUE + 100万円（税別）エコノミープラン" class="sp">
+                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_2_sp.svg" alt="RAKUE + 100万円（税別）エコノミープラン" class="sp">
                     </div>
 
                     <div class="body">
                         <div>
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">
                             <p>トークマニュアルの提供</p>
                         </div>
                         <div>
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">
                             <p>プレゼン動画の提供</p>
                         </div>
                         <div>
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">
                             <p>実案件への営業同席2回付 <br>
                             （オンライン含む）</p>
                         </div>
                         <div>
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">
                             <p>TEL＆チャットでの案件相談 <br>
                                 1か月無料</p>
                         </div>
@@ -308,25 +313,25 @@
 
                     <div class="col_heading">
                         <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_3.png" alt="RAKUE + 200万円（税別）スタンダードプラン" class="pc">
-                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_3_sp.png" alt="RAKUE + 200万円（税別）スタンダードプラン" class="sp">
+                        <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/img_3_sp.svg" alt="RAKUE + 200万円（税別）スタンダードプラン" class="sp">
                     </div>
 
                     <div class="body">
                         <div>
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">
                             <p>トークマニュアルの提供</p>
                         </div>
                         <div>
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">
                             <p>プレゼン動画の提供</p>
                         </div>
                         <div>
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">
                             <p>実案件への営業同席<span>5回付</span><br>
                                 （オンライン含む）</p>
                         </div>
                         <div>
-                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.png" alt="Plus Sign">
+                            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">
                             <p>TEL＆チャットでの案件相談 <br>
                             <span>3か月無料</span></p>
                         </div>
@@ -415,11 +420,16 @@
 
             </div>
             
-            <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_1_sp.png" alt="Girl" class="girl_sp">
+            <div class="girl_sp_cont">
+                <!-- <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/img_1_sp.png" alt="Girl" class="girl_sp"> -->
+                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/girl_sp.png" alt="Girl" class="girl_sp">
+                <img src="<?= get_template_directory_uri(); ?>/release/image/sect_7/girl_sp_txt.svg" alt="Girl" class="girl_sp_txt">
+            </div>
+            
         </div>
     </div>
 </section>
-<section class="sect_8">
+<section class="sect_8" id="sect_8">
     <div class="sect_8__wrapper">
         <div class="l-wrap">
             <h3 class="l-wrap__header m-b-60">お申し込み<br>フォーム</h3>
