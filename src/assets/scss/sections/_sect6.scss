@@ -188,7 +188,7 @@
 
                                 @include font-line(22);
                                 font-weight: 500;
-                                font-family: Noto Sans CJK JP;
+                                font-family: noto-sans-cjk-jp, sans-serif;
                                 color: #fff;
                                 letter-spacing: 0;
 
@@ -207,7 +207,7 @@
 
                                 @include font-line(18);
                                 font-weight: 300;
-                                font-family: Noto Sans CJK JP;
+                                font-family: noto-sans-cjk-jp, sans-serif;
                                 color: #fff;
                                 line-height: 29.7px;
                                 letter-spacing: -1px;
@@ -241,7 +241,7 @@
                             p {
                                 @include font-line(18);
                                 font-weight: 300;
-                                font-family: Noto Sans CJK JP;
+                                font-family: noto-sans-cjk-jp, sans-serif;
                                 color: #fff;
                                 line-height: 29.7px;
                                 letter-spacing: -1px;
