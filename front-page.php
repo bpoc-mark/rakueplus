@@ -236,7 +236,8 @@
                         <div>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">
                             <p>実案件への営業同席<span>5回付</span><br>
-                                （オンライン含む）</p>
+                            <span>（オンライン含む）</span>
+                                </p>
                         </div>
                         <div>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">
@@ -293,7 +294,8 @@
                         <div>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">
                             <p>実案件への営業同席2回付 <br>
-                            （オンライン含む）</p>
+                            <span>（オンライン含む）</span>
+                            </p>
                         </div>
                         <div>
                             <img src="<?= get_template_directory_uri(); ?>/release/image/sect_6/icon_1.svg" alt="Plus Sign">

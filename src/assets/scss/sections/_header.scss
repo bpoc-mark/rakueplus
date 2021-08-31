@@ -155,6 +155,10 @@
                         @include font-line(18, 36);
                         color: #006795;
 
+                        @include is-sp{
+                            text-align: justify;
+                        }
+
                         @include is-max(480px){
                             font-size: 3.750vw;
                         }
