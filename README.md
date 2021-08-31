@@ -1,10 +1,10 @@
-# RakuePlus
+# Rakueplus
 
 ##### Table of Contents
 
 -   [:pushpin: Prerequisites](#Prerequisites)
--   [:rocket: Installing Hipe Asia](#Installing)
--   [:computer: Usage of Hipe Asia](#Usage)
+-   [:rocket: Installing Rakueplus](#Installing)
+-   [:computer: Usage of Rakueplus](#Usage)
 -   [:mailbox: Credits](#Credits)
 
 ## <a name='Prerequisites'></a> :pushpin: Prerequisites
@@ -20,9 +20,9 @@ Before you begin, ensure you have met the following requirements:
 | Node     | 14.X | Install Node      |
 | Wordpress | 5.X  | Download on this link [wordpress](https://wordpress.org/) or Install via laragon app |
 
-## <a name='Installing'></a> :rocket: Installing RakuePlus
+## <a name='Installing'></a> :rocket: Installing Rakueplus
 
-To install RakuePlus in your local machine, follow this instructions
+To install Rakueplus in your local machine, follow this instructions
 
 **Install Wordpress**:
 
@@ -43,7 +43,7 @@ git clone -b <your_branch> https://github.com/bpoc-mark/rakueplus.git
 
 After cloning, open your wordpress dashboard and activate the theme.
 
-## <a name='Usage'></a>:computer: Usage of RakuePlus
+## <a name='Usage'></a>:computer: Usage of Rakueplus
 
 To begin the development, follow this steps listed below:
 

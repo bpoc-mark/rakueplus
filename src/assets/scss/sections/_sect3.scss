@@ -113,9 +113,8 @@
 		p:nth-child(4) {
 			@include font-line(17);
 			font-weight: 500;
-			text-align: left;
-			font-family: noto-sans-cjk-jp,
-				sans-serif;
+			text-align: justify;
+			font-family: noto-sans-cjk-jp, sans-serif;
 			color: #000;
 		}
 

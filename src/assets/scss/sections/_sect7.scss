@@ -43,7 +43,7 @@
                     color: #006795;
                     @include font-line(32);
                     font-weight: 700;
-                    font-family: Noto Sans CJK JP;
+                    font-family: noto-sans-cjk-jp, sans-serif;
                     text-align: center;
                     
                 }
@@ -220,11 +220,11 @@
                     }
                     .col_body {
                         @include font-line(18, 29.7);
-                        font-weight: 400;
+                        font-weight: 500;
                         font-family: noto-sans-cjk-jp, sans-serif;
                         color: #006795;
                         padding-top: 30px;
-
+                        text-align: justify;
                         @include is-max(900px) {
                             padding-top: 37px;
                         }

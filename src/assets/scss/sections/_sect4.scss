@@ -188,7 +188,7 @@
 
 			.txt_list {
 				@include font-line(25);
-				font-weight: 400;
+				font-weight: 500;
 				text-align: left;
 				font-family: noto-sans-cjk-jp, sans-serif;
 				letter-spacing: -1.1px;
@@ -294,7 +294,7 @@
 		.txt {
 			@include font-line(18);
 			font-weight: 500;
-			text-align: left;
+			text-align: justify;
 			font-family: noto-sans-cjk-jp, sans-serif;
 		}
 

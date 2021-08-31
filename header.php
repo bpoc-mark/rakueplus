@@ -55,7 +55,7 @@
             <div class="l-wrap">
                 <div class="head_cont">
                     <div class="head_cont_1">
-                        <p>窓って簡単に変えられる。<br>
+                        <p>窓って簡単に変えられる<span>。</span><br>
                             他社にはできない「窓」の<br class="br_sp">提案でしっかり差別化</p>
                         <img src="<?php echo get_template_directory_uri();?>/release/image/header/head_cont_btm.png" alt="">
                     </div>
