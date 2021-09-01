@@ -81,7 +81,7 @@
                 </div>
                 <div class="head_desc">
                     <p>リフォーム業界のnextブルーオーシャンはこれで決まり！<br>
-                        手をつけづらい「窓交換」の提案で売り上げも利益率もアップ！<br>
+                        手をつけにくい「窓交換」の提案で売り上げも利益率もアップ！<br>
                         業界初!? の手厚い導入支援付きで、更なる安心をプラスします。<br>
                         他社より高い見積もりを提出しながら、受注できるメソッドとは!?</p>
                     <img class="head_txt_img_1_pc" src="<?php echo get_template_directory_uri();?>/release/image/header/head_txt_img_1.svg" alt="営業サポート">
